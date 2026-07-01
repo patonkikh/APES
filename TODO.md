@@ -25,7 +25,7 @@
 - [x] epic-generator
 - [x] user-story-generator
 - [x] acceptance-criteria-generator
-- [ ] story-mapping
+- [x] story-mapping
 
 ### Финализация Этапа 1
 

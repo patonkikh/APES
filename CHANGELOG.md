@@ -35,3 +35,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/epic-generator skill (epic decomposition Playbook)
 - product/user-story-generator skill (INVEST user stories Playbook)
 - product/acceptance-criteria-generator skill (Given-When-Then acceptance criteria Playbook)
+- product/story-mapping skill (Jeff Patton story mapping Playbook)

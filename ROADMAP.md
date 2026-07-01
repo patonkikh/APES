@@ -27,7 +27,7 @@
 | Product Skill: epic-generator | done |
 | Product Skill: user-story-generator | done |
 | Product Skill: acceptance-criteria-generator | done |
-| Product Skill: story-mapping | pending |
+| Product Skill: story-mapping | done |
 | Ревью цепочки Next Skills | pending |
 
 ### Цепочка Skills (Этап 1)
