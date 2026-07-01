@@ -2,38 +2,38 @@
 
 **Последнее обновление:** 2026-07-01
 
-## Этап 1 — завершён (2026-07-01)
+## Этап 2 — завершён (2026-07-01)
 
-10 Product Skills + инфраструктура. См. [ROADMAP.md](ROADMAP.md).
+**50/50 Skills** — цель Growth достигнута.
 
-## Этап 2 — в работе
+| Категория | Skills |
+|-----------|--------|
+| product | 15 |
+| architecture | 10 |
+| ai | 10 |
+| rag | 5 |
+| security | 5 |
+| mcp | 5 |
 
-### Завершено
+## Этап 3 — Scale (текущий)
 
-- [x] LICENSE (MIT)
-- [x] Architecture: solution-architecture
-- [x] Architecture: system-context-builder
-- [x] Architecture: container-diagram-builder
-- [x] Architecture: adr-generator
-- [x] Architecture: architecture-review
-- [x] docs/SKILL_CHAIN_ARCHITECTURE.md
+### Приоритеты
 
-### Следующие приоритеты
+- [ ] Jira: первые 5 Skills
+- [ ] Enterprise: первые 5 Skills
+- [ ] GitHub: первые 5 Skills
+- [ ] RAG: расширение до 10 Skills
+- [ ] Публикация в внешних каталогах (awesome lists, Cursor community)
 
-- [x] CI-валидация skill.md по SKILL_STANDARD
-- [ ] Публикация в каталогах Skills
-- [ ] Architecture: api-designer
-- [ ] Architecture: integration-planner
-- [ ] AI Engineering: первые 5 Skills
+### Инфраструктура
 
-### Product — расширение
-
-- [ ] product-discovery-assistant
-- [ ] okr-builder
-- [ ] sprint-planner
+- [x] catalog.json + generate_catalog.py
+- [x] docs/PUBLISHING.md
+- [x] scripts/validate_skills.py
+- [ ] GitHub Actions CI (validate + catalog on PR)
 
 ## Следующий шаг
 
-Добавить CI-скрипт валидации skill.md или `architecture/api-designer` skill.
+Начать категорию Jira: `jira/epic-planner` skill.
 
-**Всего Skills:** 15 (10 product + 5 architecture)
+**Всего Skills:** 50

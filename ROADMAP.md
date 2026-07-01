@@ -2,7 +2,7 @@
 
 **Источник:** [task.md](task.md) §14  
 **Последнее обновление:** 2026-07-01  
-**Текущий этап:** Этап 2 — Growth (Этап 1 завершён)
+**Текущий этап:** Этап 3 — Scale (Этап 2 завершён: 50 Skills)
 
 ---
 
@@ -41,32 +41,24 @@ idea-validator → problem-statement-builder → persona-generator
 
 ---
 
-## Этап 2 — Growth (текущий)
+## Этап 2 — Growth (завершён)
 
-**Последнее обновление:** 2026-07-01
+**Статус: done (2026-07-01)** — 50 Skills опубликованы в репозитории.
 
-| Задача | Статус |
-|--------|--------|
-| LICENSE (MIT) | done |
-| Architecture: solution-architecture | done |
-| Architecture: system-context-builder | done |
-| Architecture: container-diagram-builder | done |
-| Architecture: adr-generator | done |
-| Architecture: architecture-review | done |
-| CI-валидация skill.md | done |
-| Публикация в каталогах | pending |
-| Расширение до 50 Skills | in progress (15/50) |
+| Категория | Skills | Статус |
+|-----------|--------|--------|
+| product | 15 | done |
+| architecture | 10 | done |
+| ai | 10 | done |
+| rag | 5 | done |
+| security | 5 | done |
+| mcp | 5 | done |
+| LICENSE, CI, catalog | — | done |
+| Публикация в каталогах | — | pending |
 
-### Цепочка Architecture (Stage 2)
+См. [catalog.json](catalog.json), [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
-```text
-prd-generator → solution-architecture → system-context-builder
-  → container-diagram-builder → adr-generator → architecture-review
-```
-
-См. [docs/SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md).
-
-- Расширение библиотеки до 50 Skills
+## Этап 3 — Scale (текущий)
 - Публикация в основных каталогах Skills
 - Сбор обратной связи
 - Добавление категорий: Architecture, AI Engineering
