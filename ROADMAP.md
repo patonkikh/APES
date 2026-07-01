@@ -53,7 +53,7 @@ idea-validator → problem-statement-builder → persona-generator
 | Architecture: container-diagram-builder | done |
 | Architecture: adr-generator | done |
 | Architecture: architecture-review | done |
-| CI-валидация skill.md | pending |
+| CI-валидация skill.md | done |
 | Публикация в каталогах | pending |
 | Расширение до 50 Skills | in progress (15/50) |
 

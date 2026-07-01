@@ -20,7 +20,7 @@
 
 ### Следующие приоритеты
 
-- [ ] CI-валидация skill.md по SKILL_STANDARD
+- [x] CI-валидация skill.md по SKILL_STANDARD
 - [ ] Публикация в каталогах Skills
 - [ ] Architecture: api-designer
 - [ ] Architecture: integration-planner

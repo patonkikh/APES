@@ -70,7 +70,7 @@ Architecture chain: solution-architecture → system-context-builder → contain
 
 See [docs/SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md).
 
-**Total Skills:** 15
+Run validation: `python scripts/validate_skills.py`
 
 ## License
 

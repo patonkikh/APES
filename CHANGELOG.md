@@ -8,7 +8,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
-- CI validation script for skill.md (planned)
+- scripts/validate_skills.py CI validation for skill.md
 
 ## [0.3.0] — 2026-07-01
 
