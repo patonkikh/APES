@@ -24,7 +24,7 @@
 - [x] prd-generator
 - [x] epic-generator
 - [x] user-story-generator
-- [ ] acceptance-criteria-generator
+- [x] acceptance-criteria-generator
 - [ ] story-mapping
 
 ### Финализация Этапа 1
