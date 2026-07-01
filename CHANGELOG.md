@@ -60,3 +60,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/prompt-reviewer skill (prompt quality and safety review Playbook)
 - ai/prompt-optimizer skill (prompt token optimization Playbook)
 - ai/context-engineering skill (context assembly and budget Playbook)
+- product/product-discovery-assistant skill (Opportunity Solution Tree discovery Playbook)
