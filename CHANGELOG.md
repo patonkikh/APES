@@ -81,3 +81,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - mcp/mcp-server-generator skill
 - mcp/mcp-client-generator skill
 - mcp/mcp-tool-generator skill
+- mcp/mcp-security-review skill
