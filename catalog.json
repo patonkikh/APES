@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "skills": [
+    {
+      "id": "ai/ai-solution-architect",
+      "name": "Ai Solution Architect",
+      "category": "ai",
+      "path": "ai/ai-solution-architect/skill.md",
+      "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs."
+    },
+    {
+      "id": "ai/context-engineering",
+      "name": "Context Engineering",
+      "category": "ai",
+      "path": "ai/context-engineering/skill.md",
+      "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow."
+    },
+    {
+      "id": "ai/prompt-engineer",
+      "name": "Prompt Engineer",
+      "category": "ai",
+      "path": "ai/prompt-engineer/skill.md",
+      "description": "Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts."
+    },
+    {
+      "id": "ai/prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "category": "ai",
+      "path": "ai/prompt-optimizer/skill.md",
+      "description": "Optimize prompts for token efficiency, latency, and output quality while preserving task behavior."
+    },
+    {
+      "id": "ai/prompt-reviewer",
+      "name": "Prompt Reviewer",
+      "category": "ai",
+      "path": "ai/prompt-reviewer/skill.md",
+      "description": "Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations."
+    },
+    {
+      "id": "architecture/adr-generator",
+      "name": "Adr Generator",
+      "category": "architecture",
+      "path": "architecture/adr-generator/skill.md",
+      "description": "Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences."
+    },
+    {
+      "id": "architecture/api-designer",
+      "name": "Api Designer",
+      "category": "architecture",
+      "path": "architecture/api-designer/skill.md",
+      "description": "Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy."
+    },
+    {
+      "id": "architecture/architecture-review",
+      "name": "Architecture Review",
+      "category": "architecture",
+      "path": "architecture/architecture-review/skill.md",
+      "description": "Conduct a structured architecture review against requirements, quality attributes, and best practices; produce findings with severity and remediation recommendations."
+    },
+    {
+      "id": "architecture/component-diagram-builder",
+      "name": "Component Diagram Builder",
+      "category": "architecture",
+      "path": "architecture/component-diagram-builder/skill.md",
+      "description": "Produce a C4 Level 3 (Component) diagram for a selected container, showing internal components, responsibilities, and dependencies."
+    },
+    {
+      "id": "architecture/container-diagram-builder",
+      "name": "Container Diagram Builder",
+      "category": "architecture",
+      "path": "architecture/container-diagram-builder/skill.md",
+      "description": "Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/runnable units with technology choices and communication paths."
+    },
+    {
+      "id": "architecture/data-flow-analyzer",
+      "name": "Data Flow Analyzer",
+      "category": "architecture",
+      "path": "architecture/data-flow-analyzer/skill.md",
+      "description": "Analyze and document data flows across the system: data origins, transformations, storage, retention, and compliance boundaries."
+    },
+    {
+      "id": "architecture/integration-planner",
+      "name": "Integration Planner",
+      "category": "architecture",
+      "path": "architecture/integration-planner/skill.md",
+      "description": "Plan integrations between system containers and external systems: patterns, contracts, sequencing, failure handling, and monitoring."
+    },
+    {
+      "id": "architecture/scalability-advisor",
+      "name": "Scalability Advisor",
+      "category": "architecture",
+      "path": "architecture/scalability-advisor/skill.md",
+      "description": "Assess system scalability: identify bottlenecks, recommend scaling strategies per container, and define capacity planning guidelines."
+    },
+    {
+      "id": "architecture/solution-architecture",
+      "name": "Solution Architecture",
+      "category": "architecture",
+      "path": "architecture/solution-architecture/skill.md",
+      "description": "Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs."
+    },
+    {
+      "id": "architecture/system-context-builder",
+      "name": "System Context Builder",
+      "category": "architecture",
+      "path": "architecture/system-context-builder/skill.md",
+      "description": "Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies."
+    },
+    {
+      "id": "product/acceptance-criteria-generator",
+      "name": "Acceptance Criteria Generator",
+      "category": "product",
+      "path": "product/acceptance-criteria-generator/skill.md",
+      "description": "Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios."
+    },
+    {
+      "id": "product/epic-generator",
+      "name": "Epic Generator",
+      "category": "product",
+      "path": "product/epic-generator/skill.md",
+      "description": "Decompose a PRD or feature scope into well-structured epics with goals, scope boundaries, and story count estimates."
+    },
+    {
+      "id": "product/feature-prioritization",
+      "name": "Feature Prioritization",
+      "category": "product",
+      "path": "product/feature-prioritization/skill.md",
+      "description": "Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale."
+    },
+    {
+      "id": "product/idea-validator",
+      "name": "Idea Validator",
+      "category": "product",
+      "path": "product/idea-validator/skill.md",
+      "description": "Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps."
+    },
+    {
+      "id": "product/okr-builder",
+      "name": "Okr Builder",
+      "category": "product",
+      "path": "product/okr-builder/skill.md",
+      "description": "Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping."
+    },
+    {
+      "id": "product/persona-generator",
+      "name": "Persona Generator",
+      "category": "product",
+      "path": "product/persona-generator/skill.md",
+      "description": "Create evidence-based user personas focused on behaviors, goals, and pain points — not demographics alone."
+    },
+    {
+      "id": "product/prd-generator",
+      "name": "Prd Generator",
+      "category": "product",
+      "path": "product/prd-generator/skill.md",
+      "description": "Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics."
+    },
+    {
+      "id": "product/problem-statement-builder",
+      "name": "Problem Statement Builder",
+      "category": "product",
+      "path": "product/problem-statement-builder/skill.md",
+      "description": "Transform a raw problem hypothesis into a structured, testable Problem Statement using Jobs-to-be-Done (JTBD) framing."
+    },
+    {
+      "id": "product/product-discovery-assistant",
+      "name": "Product Discovery Assistant",
+      "category": "product",
+      "path": "product/product-discovery-assistant/skill.md",
+      "description": "Facilitate structured product discovery using Opportunity Solution Tree (OST) and Teresa Torres framework: map outcomes, opportunities, solutions, and experiments."
+    },
+    {
+      "id": "product/product-vision-builder",
+      "name": "Product Vision Builder",
+      "category": "product",
+      "path": "product/product-vision-builder/skill.md",
+      "description": "Define a product vision that connects user problems, strategic direction, and measurable north star using the Product Vision Canvas."
+    },
+    {
+      "id": "product/sprint-planner",
+      "name": "Sprint Planner",
+      "category": "product",
+      "path": "product/sprint-planner/skill.md",
+      "description": "Plan a development sprint: select stories, define sprint goal, estimate capacity, and produce a sprint backlog with risk buffer."
+    },
+    {
+      "id": "product/story-mapping",
+      "name": "Story Mapping",
+      "category": "product",
+      "path": "product/story-mapping/skill.md",
+      "description": "Create a visual story map (Jeff Patton method) organizing user activities, tasks, and stories across a horizontal user journey with vertical priority."
+    },
+    {
+      "id": "product/user-story-generator",
+      "name": "User Story Generator",
+      "category": "product",
+      "path": "product/user-story-generator/skill.md",
+      "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance."
+    },
+    {
+      "id": "rag/chunking-strategy-advisor",
+      "name": "Chunking Strategy Advisor",
+      "category": "rag",
+      "path": "rag/chunking-strategy-advisor/skill.md",
+      "description": "Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality."
+    },
+    {
+      "id": "rag/embedding-strategy-advisor",
+      "name": "Embedding Strategy Advisor",
+      "category": "rag",
+      "path": "rag/embedding-strategy-advisor/skill.md",
+      "description": "Select and configure embedding models and indexing strategy for a RAG corpus based on domain, language, and quality requirements."
+    },
+    {
+      "id": "rag/hybrid-search-advisor",
+      "name": "Hybrid Search Advisor",
+      "category": "rag",
+      "path": "rag/hybrid-search-advisor/skill.md",
+      "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking."
+    },
+    {
+      "id": "rag/rag-architecture-designer",
+      "name": "Rag Architecture Designer",
+      "category": "rag",
+      "path": "rag/rag-architecture-designer/skill.md",
+      "description": "Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components."
+    },
+    {
+      "id": "rag/retriever-optimizer",
+      "name": "Retriever Optimizer",
+      "category": "rag",
+      "path": "rag/retriever-optimizer/skill.md",
+      "description": "Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision."
+    }
+  ]
+}
