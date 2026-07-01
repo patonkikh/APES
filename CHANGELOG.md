@@ -54,3 +54,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - architecture/integration-planner skill (integration patterns and rollout Playbook)
 - architecture/component-diagram-builder skill (C4 Level 3 component diagram Playbook)
 - architecture/data-flow-analyzer skill (data flow and compliance Playbook)
+- architecture/scalability-advisor skill (scalability assessment Playbook)
