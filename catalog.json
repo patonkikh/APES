@@ -2,6 +2,27 @@
   "version": "1.0",
   "skills": [
     {
+      "id": "ai/ai-cost-optimizer",
+      "name": "Ai Cost Optimizer",
+      "category": "ai",
+      "path": "ai/ai-cost-optimizer/skill.md",
+      "description": "Optimize LLM inference costs: token budget allocation, model routing, caching strategy, and batching without breaching quality thresholds."
+    },
+    {
+      "id": "ai/ai-evaluation-builder",
+      "name": "Ai Evaluation Builder",
+      "category": "ai",
+      "path": "ai/ai-evaluation-builder/skill.md",
+      "description": "Design an offline and online evaluation harness: datasets, metrics, baselines, regression gates, and production monitoring for AI system quality."
+    },
+    {
+      "id": "ai/ai-latency-optimizer",
+      "name": "Ai Latency Optimizer",
+      "category": "ai",
+      "path": "ai/ai-latency-optimizer/skill.md",
+      "description": "Reduce AI inference latency: pipeline profiling, parallelization, caching, model selection, and streaming strategies to meet SLA targets."
+    },
+    {
       "id": "ai/ai-solution-architect",
       "name": "Ai Solution Architect",
       "category": "ai",
@@ -9,11 +30,25 @@
       "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs."
     },
     {
+      "id": "ai/ai-workflow-builder",
+      "name": "Ai Workflow Builder",
+      "category": "ai",
+      "path": "ai/ai-workflow-builder/skill.md",
+      "description": "Build an executable AI workflow pipeline: stage definitions, data flow, branching logic, retries, and integration points for production deployment."
+    },
+    {
       "id": "ai/context-engineering",
       "name": "Context Engineering",
       "category": "ai",
       "path": "ai/context-engineering/skill.md",
       "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow."
+    },
+    {
+      "id": "ai/multi-agent-planner",
+      "name": "Multi Agent Planner",
+      "category": "ai",
+      "path": "ai/multi-agent-planner/skill.md",
+      "description": "Design a multi-agent orchestration architecture: agent roles, communication patterns, handoff protocols, and failure recovery for collaborative AI systems."
     },
     {
       "id": "ai/prompt-engineer",
@@ -107,6 +142,41 @@
       "description": "Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies."
     },
     {
+      "id": "mcp/mcp-best-practices",
+      "name": "Mcp Best Practices",
+      "category": "mcp",
+      "path": "mcp/mcp-best-practices/skill.md",
+      "description": "Document and apply MCP implementation best practices: server design, client integration, testing, versioning, observability, and operational readiness for production MCP deployments."
+    },
+    {
+      "id": "mcp/mcp-client-generator",
+      "name": "Mcp Client Generator",
+      "category": "mcp",
+      "path": "mcp/mcp-client-generator/skill.md",
+      "description": "Generate MCP client integration: connection setup, capability discovery, tool invocation patterns, and error handling for agent applications."
+    },
+    {
+      "id": "mcp/mcp-security-review",
+      "name": "Mcp Security Review",
+      "category": "mcp",
+      "path": "mcp/mcp-security-review/skill.md",
+      "description": "Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks."
+    },
+    {
+      "id": "mcp/mcp-server-generator",
+      "name": "Mcp Server Generator",
+      "category": "mcp",
+      "path": "mcp/mcp-server-generator/skill.md",
+      "description": "Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration."
+    },
+    {
+      "id": "mcp/mcp-tool-generator",
+      "name": "Mcp Tool Generator",
+      "category": "mcp",
+      "path": "mcp/mcp-tool-generator/skill.md",
+      "description": "Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation."
+    },
+    {
       "id": "product/acceptance-criteria-generator",
       "name": "Acceptance Criteria Generator",
       "category": "product",
@@ -133,6 +203,13 @@
       "category": "product",
       "path": "product/idea-validator/skill.md",
       "description": "Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps."
+    },
+    {
+      "id": "product/north-star-metric-advisor",
+      "name": "North Star Metric Advisor",
+      "category": "product",
+      "path": "product/north-star-metric-advisor/skill.md",
+      "description": "Define a single north star metric with input metrics, guardrails, and measurement plan that reflects core user value and ladders to business outcomes."
     },
     {
       "id": "product/okr-builder",
@@ -198,6 +275,13 @@
       "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance."
     },
     {
+      "id": "product/value-proposition-designer",
+      "name": "Value Proposition Designer",
+      "category": "product",
+      "path": "product/value-proposition-designer/skill.md",
+      "description": "Design a validated Value Proposition Canvas that maps customer jobs, pains, and gains to product pain relievers and gain creators, with an explicit fit assessment."
+    },
+    {
       "id": "rag/chunking-strategy-advisor",
       "name": "Chunking Strategy Advisor",
       "category": "rag",
@@ -231,6 +315,41 @@
       "category": "rag",
       "path": "rag/retriever-optimizer/skill.md",
       "description": "Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision."
+    },
+    {
+      "id": "security/ai-governance-advisor",
+      "name": "Ai Governance Advisor",
+      "category": "security",
+      "path": "security/ai-governance-advisor/skill.md",
+      "description": "Define AI governance policies, roles, compliance mappings, and operational controls for responsible LLM deployment aligned with organizational and regulatory requirements."
+    },
+    {
+      "id": "security/ai-threat-modeling",
+      "name": "Ai Threat Modeling",
+      "category": "security",
+      "path": "security/ai-threat-modeling/skill.md",
+      "description": "Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use."
+    },
+    {
+      "id": "security/guardrails-builder",
+      "name": "Guardrails Builder",
+      "category": "security",
+      "path": "security/guardrails-builder/skill.md",
+      "description": "Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers."
+    },
+    {
+      "id": "security/owasp-llm-reviewer",
+      "name": "Owasp Llm Reviewer",
+      "category": "security",
+      "path": "security/owasp-llm-reviewer/skill.md",
+      "description": "Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions."
+    },
+    {
+      "id": "security/prompt-injection-detector",
+      "name": "Prompt Injection Detector",
+      "category": "security",
+      "path": "security/prompt-injection-detector/skill.md",
+      "description": "Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline."
     }
   ]
 }

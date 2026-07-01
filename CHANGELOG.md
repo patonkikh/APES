@@ -85,3 +85,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - mcp/mcp-best-practices skill
 - product/value-proposition-designer skill
 - product/north-star-metric-advisor skill
+- product/north-star-metric-advisor skill
