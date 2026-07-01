@@ -56,3 +56,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - architecture/data-flow-analyzer skill (data flow and compliance Playbook)
 - architecture/scalability-advisor skill (scalability assessment Playbook)
 - ai/ai-solution-architect skill (AI system architecture Playbook)
+- ai/prompt-engineer skill (production prompt design Playbook)
