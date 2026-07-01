@@ -16,8 +16,8 @@
 | ROADMAP, TODO, CHANGELOG | done |
 | docs/ARCHITECTURE.md | done |
 | docs/SKILL_STANDARD.md | done |
-| docs/adr/0001-skill-file-format.md | in progress |
-| skills/_template/ | pending |
+| docs/adr/0001-skill-file-format.md | done |
+| skills/_template/ | in progress |
 | Product Skill: idea-validator | pending |
 | Product Skill: problem-statement-builder | pending |
 | Product Skill: persona-generator | pending |

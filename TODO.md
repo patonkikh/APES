@@ -14,7 +14,7 @@
 - [x] CHANGELOG.md
 - [x] docs/ARCHITECTURE.md
 - [x] docs/SKILL_STANDARD.md
-- [ ] docs/adr/0001-skill-file-format.md
+- [x] docs/adr/0001-skill-file-format.md
 - [ ] skills/_template/
 
 ### Product Skills (10)
