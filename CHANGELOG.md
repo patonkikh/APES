@@ -65,3 +65,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/sprint-planner skill (sprint planning Playbook)
 - rag/rag-architecture-designer skill (RAG pipeline architecture Playbook)
 - rag/chunking-strategy-advisor skill (document chunking Playbook)
+- rag/embedding-strategy-advisor skill (embedding model selection Playbook)
