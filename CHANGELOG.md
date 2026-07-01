@@ -44,3 +44,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - architecture/system-context-builder skill (C4 Level 1 context diagram Playbook)
 - architecture/container-diagram-builder skill (C4 Level 2 container diagram Playbook)
 - architecture/adr-generator skill (Michael Nygard ADR Playbook)
+- architecture/architecture-review skill (ATAM-inspired architecture review Playbook)
