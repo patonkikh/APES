@@ -23,7 +23,7 @@
 | Product Skill: persona-generator | done |
 | Product Skill: product-vision-builder | done |
 | Product Skill: feature-prioritization | done |
-| Product Skill: prd-generator | pending |
+| Product Skill: prd-generator | done |
 | Product Skill: epic-generator | pending |
 | Product Skill: user-story-generator | pending |
 | Product Skill: acceptance-criteria-generator | pending |

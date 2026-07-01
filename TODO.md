@@ -21,7 +21,7 @@
 - [x] persona-generator
 - [x] product-vision-builder
 - [x] feature-prioritization
-- [ ] prd-generator
+- [x] prd-generator
 - [ ] epic-generator
 - [ ] user-story-generator
 - [ ] acceptance-criteria-generator
