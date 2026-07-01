@@ -1,0 +1,40 @@
+# TODO — APES
+
+**Последнее обновление:** 2026-07-01
+
+## Активные задачи (Этап 1)
+
+### Инфраструктура
+
+- [x] Исправить форматирование task.md
+- [x] Инициализировать git и .gitignore
+- [x] README.md
+- [x] AGENTS.md
+- [ ] ROADMAP.md, TODO.md (этот файл)
+- [ ] CHANGELOG.md
+- [ ] docs/ARCHITECTURE.md
+- [ ] docs/SKILL_STANDARD.md
+- [ ] docs/adr/0001-skill-file-format.md
+- [ ] skills/_template/
+
+### Product Skills (10)
+
+- [ ] idea-validator
+- [ ] problem-statement-builder
+- [ ] persona-generator
+- [ ] product-vision-builder
+- [ ] feature-prioritization
+- [ ] prd-generator
+- [ ] epic-generator
+- [ ] user-story-generator
+- [ ] acceptance-criteria-generator
+- [ ] story-mapping
+
+### Финализация Этапа 1
+
+- [ ] Ревью цепочки Next Skills
+- [ ] Обновить ROADMAP — отметить Этап 1 complete
+
+## Следующий шаг
+
+Создать CHANGELOG.md, затем docs/ARCHITECTURE.md.
