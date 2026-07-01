@@ -21,7 +21,7 @@
 | Product Skill: idea-validator | in progress |
 | Product Skill: problem-statement-builder | done |
 | Product Skill: persona-generator | done |
-| Product Skill: product-vision-builder | pending |
+| Product Skill: product-vision-builder | done |
 | Product Skill: feature-prioritization | pending |
 | Product Skill: prd-generator | pending |
 | Product Skill: epic-generator | pending |

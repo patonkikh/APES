@@ -19,7 +19,7 @@
 - [ ] idea-validator
 - [x] problem-statement-builder
 - [x] persona-generator
-- [ ] product-vision-builder
+- [x] product-vision-builder
 - [ ] feature-prioritization
 - [ ] prd-generator
 - [ ] epic-generator
