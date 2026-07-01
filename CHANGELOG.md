@@ -72,3 +72,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - security/ai-threat-modeling skill
 - security/guardrails-builder skill
 - security/owasp-llm-reviewer skill
+- security/ai-governance-advisor skill
