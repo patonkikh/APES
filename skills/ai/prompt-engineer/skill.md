@@ -80,7 +80,7 @@ Run Validation checklist.
 - [ ] Output format contract is unambiguous
 - [ ] ≥2 few-shot examples included
 - [ ] ≥5 test cases with pass criteria
-- [ ] No Role Play ("You are...")
+- [ ] No Role Play or persona assignment phrasing
 - [ ] Refusal/out-of-scope handling for user-facing prompts
 
 ---
