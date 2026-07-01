@@ -20,7 +20,7 @@
 - [x] problem-statement-builder
 - [x] persona-generator
 - [x] product-vision-builder
-- [ ] feature-prioritization
+- [x] feature-prioritization
 - [ ] prd-generator
 - [ ] epic-generator
 - [ ] user-story-generator

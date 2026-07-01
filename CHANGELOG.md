@@ -30,3 +30,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 [Unreleased]: https://github.com/apes-skills/apes/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/apes-skills/apes/releases/tag/v0.1.0
 - product/product-vision-builder skill (Product Vision Canvas Playbook)
+- product/feature-prioritization skill (RICE/ICE/MoSCoW prioritization Playbook)
