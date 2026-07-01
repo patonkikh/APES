@@ -68,3 +68,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - rag/embedding-strategy-advisor skill (embedding model selection Playbook)
 - rag/retriever-optimizer skill (retrieval optimization Playbook)
 - rag/hybrid-search-advisor skill (hybrid search fusion Playbook)
+- security/prompt-injection-detector skill
