@@ -33,3 +33,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/feature-prioritization skill (RICE/ICE/MoSCoW prioritization Playbook)
 - product/prd-generator skill (PRD with FR/NFR requirements Playbook)
 - product/epic-generator skill (epic decomposition Playbook)
+- product/user-story-generator skill (INVEST user stories Playbook)

@@ -23,7 +23,7 @@
 - [x] feature-prioritization
 - [x] prd-generator
 - [x] epic-generator
-- [ ] user-story-generator
+- [x] user-story-generator
 - [ ] acceptance-criteria-generator
 - [ ] story-mapping
 
