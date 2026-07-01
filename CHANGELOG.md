@@ -67,3 +67,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - rag/chunking-strategy-advisor skill (document chunking Playbook)
 - rag/embedding-strategy-advisor skill (embedding model selection Playbook)
 - rag/retriever-optimizer skill (retrieval optimization Playbook)
+- rag/hybrid-search-advisor skill (hybrid search fusion Playbook)
