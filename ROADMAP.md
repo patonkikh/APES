@@ -17,8 +17,8 @@
 | docs/ARCHITECTURE.md | done |
 | docs/SKILL_STANDARD.md | done |
 | docs/adr/0001-skill-file-format.md | done |
-| skills/_template/ | in progress |
-| Product Skill: idea-validator | pending |
+| skills/_template/ | done |
+| Product Skill: idea-validator | in progress |
 | Product Skill: problem-statement-builder | pending |
 | Product Skill: persona-generator | pending |
 | Product Skill: product-vision-builder | pending |

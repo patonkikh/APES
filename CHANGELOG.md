@@ -16,6 +16,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - docs/SKILL_STANDARD.md engineering playbook standard
 - ADR 0001: lowercase skill.md distribution format
 - skills/_template/ reference Playbook template
+- product/idea-validator skill (Lean Startup validation)
 
 ## [0.1.0] — 2026-07-01
 

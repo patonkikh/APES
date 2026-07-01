@@ -15,10 +15,7 @@
 - [x] docs/ARCHITECTURE.md
 - [x] docs/SKILL_STANDARD.md
 - [x] docs/adr/0001-skill-file-format.md
-- [ ] skills/_template/
-
-### Product Skills (10)
-
+- [x] skills/_template/
 - [ ] idea-validator
 - [ ] problem-statement-builder
 - [ ] persona-generator
