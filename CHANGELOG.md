@@ -61,3 +61,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/prompt-optimizer skill (prompt token optimization Playbook)
 - ai/context-engineering skill (context assembly and budget Playbook)
 - product/product-discovery-assistant skill (Opportunity Solution Tree discovery Playbook)
+- product/okr-builder skill (OKR builder Playbook)
