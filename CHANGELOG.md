@@ -32,3 +32,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/product-vision-builder skill (Product Vision Canvas Playbook)
 - product/feature-prioritization skill (RICE/ICE/MoSCoW prioritization Playbook)
 - product/prd-generator skill (PRD with FR/NFR requirements Playbook)
+- product/epic-generator skill (epic decomposition Playbook)

@@ -24,7 +24,7 @@
 | Product Skill: product-vision-builder | done |
 | Product Skill: feature-prioritization | done |
 | Product Skill: prd-generator | done |
-| Product Skill: epic-generator | pending |
+| Product Skill: epic-generator | done |
 | Product Skill: user-story-generator | pending |
 | Product Skill: acceptance-criteria-generator | pending |
 | Product Skill: story-mapping | pending |

@@ -22,7 +22,7 @@
 - [x] product-vision-builder
 - [x] feature-prioritization
 - [x] prd-generator
-- [ ] epic-generator
+- [x] epic-generator
 - [ ] user-story-generator
 - [ ] acceptance-criteria-generator
 - [ ] story-mapping
