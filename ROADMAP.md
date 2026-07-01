@@ -20,7 +20,7 @@
 | skills/_template/ | done |
 | Product Skill: idea-validator | in progress |
 | Product Skill: problem-statement-builder | done |
-| Product Skill: persona-generator | pending |
+| Product Skill: persona-generator | done |
 | Product Skill: product-vision-builder | pending |
 | Product Skill: feature-prioritization | pending |
 | Product Skill: prd-generator | pending |

@@ -18,7 +18,7 @@
 - [x] skills/_template/
 - [ ] idea-validator
 - [x] problem-statement-builder
-- [ ] persona-generator
+- [x] persona-generator
 - [ ] product-vision-builder
 - [ ] feature-prioritization
 - [ ] prd-generator

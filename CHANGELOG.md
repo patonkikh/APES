@@ -18,6 +18,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - skills/_template/ reference Playbook template
 - product/idea-validator skill (Lean Startup validation)
 - product/problem-statement-builder skill (JTBD framing)
+- product/persona-generator skill (behavioral personas)
 
 ## [0.1.0] — 2026-07-01
 
