@@ -83,3 +83,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - mcp/mcp-tool-generator skill
 - mcp/mcp-security-review skill
 - mcp/mcp-best-practices skill
+- product/value-proposition-designer skill
