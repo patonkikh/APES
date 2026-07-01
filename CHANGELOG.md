@@ -58,3 +58,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/ai-solution-architect skill (AI system architecture Playbook)
 - ai/prompt-engineer skill (production prompt design Playbook)
 - ai/prompt-reviewer skill (prompt quality and safety review Playbook)
+- ai/prompt-optimizer skill (prompt token optimization Playbook)
