@@ -80,3 +80,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/ai-latency-optimizer skill
 - mcp/mcp-server-generator skill
 - mcp/mcp-client-generator skill
+- mcp/mcp-tool-generator skill
