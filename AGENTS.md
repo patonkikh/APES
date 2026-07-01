@@ -93,7 +93,8 @@
 | 2026-07-01 | 3054ab6 | docs: add skill engineering standard |
 | 2026-07-01 | b8f58df | docs(adr): adopt lowercase skill.md format |
 | 2026-07-01 | 8bc9fd2 | feat: add skill template |
-| 2026-07-01 | cf587fd–ffd100b | feat(product): add 10 Product Skills |
-| 2026-07-01 | — | docs: mark stage 1 complete |
+| 2026-07-01 | a3555ff | chore: add MIT license |
+| 2026-07-01 | af793f9–50fc6f9 | feat(architecture): add 5 Architecture Skills |
+| 2026-07-01 | — | docs: update stage 2 architecture chain |
 
 Обновлять эту таблицу после каждого коммита.

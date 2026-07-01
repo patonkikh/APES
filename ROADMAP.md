@@ -43,6 +43,29 @@ idea-validator → problem-statement-builder → persona-generator
 
 ## Этап 2 — Growth (текущий)
 
+**Последнее обновление:** 2026-07-01
+
+| Задача | Статус |
+|--------|--------|
+| LICENSE (MIT) | done |
+| Architecture: solution-architecture | done |
+| Architecture: system-context-builder | done |
+| Architecture: container-diagram-builder | done |
+| Architecture: adr-generator | done |
+| Architecture: architecture-review | done |
+| CI-валидация skill.md | pending |
+| Публикация в каталогах | pending |
+| Расширение до 50 Skills | in progress (15/50) |
+
+### Цепочка Architecture (Stage 2)
+
+```text
+prd-generator → solution-architecture → system-context-builder
+  → container-diagram-builder → adr-generator → architecture-review
+```
+
+См. [docs/SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md).
+
 - Расширение библиотеки до 50 Skills
 - Публикация в основных каталогах Skills
 - Сбор обратной связи

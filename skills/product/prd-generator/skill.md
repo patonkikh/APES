@@ -163,3 +163,4 @@ Run Validation checklist.
 | Write user stories | `product/user-story-generator` |
 | Need acceptance criteria | `product/acceptance-criteria-generator` |
 | Visualize user journey | `product/story-mapping` |
+| Ready for technical design | `architecture/solution-architecture` |

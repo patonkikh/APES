@@ -6,13 +6,22 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
-### Changed
+### Added
 
-- Stage 2 planning tasks in TODO.md
+- CI validation script for skill.md (planned)
+
+## [0.3.0] — 2026-07-01
 
 ### Added
 
+- 5 Architecture Skills: solution-architecture through architecture-review
+- docs/SKILL_CHAIN_ARCHITECTURE.md with C4 pipeline
 - MIT LICENSE
+
+### Changed
+
+- prd-generator Next Skills links to architecture/solution-architecture
+- README updated with Stage 2 progress (15 total Skills)
 
 ## [0.2.0] — 2026-07-01
 
@@ -37,11 +46,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - .gitignore
 - Project README
 
-[Unreleased]: https://github.com/apes-skills/apes/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/apes-skills/apes/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/apes-skills/apes/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/apes-skills/apes/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/apes-skills/apes/releases/tag/v0.1.0
-- architecture/solution-architecture skill (solution design from PRD Playbook)
-- architecture/system-context-builder skill (C4 Level 1 context diagram Playbook)
-- architecture/container-diagram-builder skill (C4 Level 2 container diagram Playbook)
-- architecture/adr-generator skill (Michael Nygard ADR Playbook)
-- architecture/architecture-review skill (ATAM-inspired architecture review Playbook)

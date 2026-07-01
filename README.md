@@ -59,7 +59,18 @@ docs/
 
 Skills available: idea-validator, problem-statement-builder, persona-generator, product-vision-builder, feature-prioritization, prd-generator, epic-generator, user-story-generator, acceptance-criteria-generator, story-mapping.
 
-See [docs/SKILL_CHAIN.md](docs/SKILL_CHAIN.md) for the recommended pipeline.
+See [docs/SKILL_CHAIN.md](docs/SKILL_CHAIN.md) for the Product pipeline.
+
+## Stage 2 (current)
+
+- MIT License
+- 5 Architecture Skills (C4 + ADR + review)
+
+Architecture chain: solution-architecture → system-context-builder → container-diagram-builder → adr-generator → architecture-review.
+
+See [docs/SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md).
+
+**Total Skills:** 15
 
 ## License
 
