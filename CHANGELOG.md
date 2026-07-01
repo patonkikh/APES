@@ -14,6 +14,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - CHANGELOG.md
 - docs/ARCHITECTURE.md platform architecture
 - docs/SKILL_STANDARD.md engineering playbook standard
+- ADR 0001: lowercase skill.md distribution format
 
 ## [0.1.0] — 2026-07-01
 

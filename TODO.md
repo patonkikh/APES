@@ -13,7 +13,7 @@
 - [x] ROADMAP.md, TODO.md (этот файл)
 - [x] CHANGELOG.md
 - [x] docs/ARCHITECTURE.md
-- [ ] docs/SKILL_STANDARD.md
+- [x] docs/SKILL_STANDARD.md
 - [ ] docs/adr/0001-skill-file-format.md
 - [ ] skills/_template/
 
