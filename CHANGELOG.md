@@ -63,3 +63,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/product-discovery-assistant skill (Opportunity Solution Tree discovery Playbook)
 - product/okr-builder skill (OKR builder Playbook)
 - product/sprint-planner skill (sprint planning Playbook)
+- rag/rag-architecture-designer skill (RAG pipeline architecture Playbook)
