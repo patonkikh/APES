@@ -34,7 +34,7 @@ $RECYCLE.BIN/
 .settings/
 *.iml
 
-# --- Cursor / local agent tooling (not part of APES distribution) ---
+# --- Cursor / local agent tooling ---
 .cursor/
 .cursorignore
 *.plan.md
@@ -51,7 +51,7 @@ credentials.json
 secrets.json
 service-account*.json
 
-# --- Python (scripts/) ---
+# --- Python ---
 __pycache__/
 *.py[cod]
 *$py.class
@@ -73,7 +73,7 @@ dist/
 build/
 pip-log.txt
 
-# --- Node (if added later) ---
+# --- Node ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -85,7 +85,7 @@ yarn-error.log*
 logs/
 *.dump
 
-# --- Archives & binaries (not source) ---
+# --- Archives & binaries ---
 *.zip
 *.tar
 *.tar.gz
@@ -101,3 +101,19 @@ output/
 .cache/
 tmp/
 temp/
+
+# =============================================================================
+# Internal development — NOT published (skills-only public repo)
+# =============================================================================
+AGENTS.md
+ROADMAP.md
+TODO.md
+CHANGELOG.md
+task.md
+CONTRIBUTING.md
+
+docs/
+scripts/
+.github/
+
+skills/_template/

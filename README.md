@@ -2,110 +2,88 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-50-brightgreen)](catalog.json)
-[![Validate](https://github.com/patonkikh/APES/actions/workflows/validate.yml/badge.svg)](https://github.com/patonkikh/APES/actions/workflows/validate.yml)
 
-**Открытая библиотека Engineering Playbooks для AI-агентов** — не role prompts, а структурированные методологии для реальной инженерной работы.
+**Open library of Engineering Playbooks for AI agents** — structured methodologies for real engineering work, not role prompts.
 
-> Каждый Skill — один файл `skill.md`: workflow, правила решений, валидация, anti-patterns и цепочка Next Skills.
+Each Skill is a single **`skill.md`** file with workflow, decision rules, validation, anti-patterns, and recommended next skills.
 
-Compatible with **Cursor**, Claude Code, Cline, Roo Code, GitHub Copilot, OpenAI Agents, Windsurf, LobeHub.
+Works with **Cursor**, Claude Code, Cline, Roo Code, GitHub Copilot, OpenAI Agents, Windsurf, LobeHub.
 
 ---
 
-## Quick Start
+## Install a Skill
 
-```bash
-git clone https://github.com/patonkikh/APES.git
-cd APES
-python scripts/validate_skills.py   # проверка всех skills
-```
+Copy **only** `skill.md` into your agent's skills folder.
 
-**Установка одного Skill (Cursor):**
+**Cursor (personal skills):**
 
 ```text
 skills/product/prd-generator/skill.md  →  ~/.cursor/skills/prd-generator/SKILL.md
 ```
 
-Подробнее: [docs/PUBLISHING.md](docs/PUBLISHING.md) · [ADR 0001](docs/adr/0001-skill-file-format.md)
+Rename to `SKILL.md` if your IDE requires uppercase.
+
+**Claude Code:** copy to `.claude/skills/<name>/`  
+**Cline / Roo:** copy to your configured skills directory  
+**GitHub Copilot:** paste content into project agent instructions
 
 ---
 
-## 50 Skills · 6 Categories
+## Browse Skills
 
-| Category | Count | Examples |
-|----------|------:|----------|
-| [product](skills/product/) | 15 | `prd-generator`, `okr-builder`, `story-mapping` |
-| [architecture](skills/architecture/) | 10 | `solution-architecture`, `api-designer`, `adr-generator` |
-| [ai](skills/ai/) | 10 | `prompt-engineer`, `context-engineering`, `multi-agent-planner` |
-| [rag](skills/rag/) | 5 | `rag-architecture-designer`, `hybrid-search-advisor` |
-| [security](skills/security/) | 5 | `owasp-llm-reviewer`, `guardrails-builder` |
-| [mcp](skills/mcp/) | 5 | `mcp-server-generator`, `mcp-tool-generator` |
+| Category | Count | Path |
+|----------|------:|------|
+| Product | 15 | [skills/product/](skills/product/) |
+| Architecture | 10 | [skills/architecture/](skills/architecture/) |
+| AI Engineering | 10 | [skills/ai/](skills/ai/) |
+| RAG | 5 | [skills/rag/](skills/rag/) |
+| AI Security | 5 | [skills/security/](skills/security/) |
+| MCP | 5 | [skills/mcp/](skills/mcp/) |
 
-Полный индекс: **[catalog.json](catalog.json)** (50 skills)
+Full machine-readable index: [catalog.json](catalog.json)
 
----
-
-## Skill Pipelines
-
-End-to-end цепочки для типового product → architecture → AI flow:
+### Example pipelines
 
 ```text
-Product:  idea-validator → … → prd-generator → story-mapping
-Architecture:  prd-generator → solution-architecture → … → architecture-review
-AI:  ai-solution-architect → prompt-engineer → … → context-engineering → RAG
+Product:  idea-validator → prd-generator → story-mapping
+Architecture:  solution-architecture → container-diagram-builder → architecture-review
+AI:  prompt-engineer → prompt-reviewer → context-engineering
+RAG:  rag-architecture-designer → chunking-strategy-advisor → hybrid-search-advisor
 ```
 
-| Chain | Doc |
-|-------|-----|
-| Product | [SKILL_CHAIN.md](docs/SKILL_CHAIN.md) |
-| Architecture | [SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md) |
-| AI | [SKILL_CHAIN_AI.md](docs/SKILL_CHAIN_AI.md) |
-| RAG | [SKILL_CHAIN_RAG.md](docs/SKILL_CHAIN_RAG.md) |
-| Security | [SKILL_CHAIN_SECURITY.md](docs/SKILL_CHAIN_SECURITY.md) |
-| MCP | [SKILL_CHAIN_MCP.md](docs/SKILL_CHAIN_MCP.md) |
+Each skill's `README.md` (in the repo only) describes usage — **install only `skill.md`**.
 
 ---
 
-## Repository Map
+## What is a Skill?
+
+An Engineering Playbook that tells an agent **how** to do one professional task:
+
+- step-by-step workflow
+- decision rules (if X then Y)
+- validation checklist before delivery
+- anti-patterns to avoid
+- standardized output format
+- links to related skills
+
+No "You are a senior…" role play. Process, not persona.
+
+---
+
+## Repository layout
 
 ```text
-APES/
-├── skills/              # 50 Engineering Playbooks (skill.md + README)
-│   ├── _template/       # Эталон для новых skills
-│   ├── product/
-│   ├── architecture/
-│   ├── ai/
-│   ├── rag/
-│   ├── security/
-│   └── mcp/
-├── docs/                # Стандарты, ADR, цепочки, публикация
-├── scripts/             # validate_skills.py, generate_catalog.py
-├── catalog.json         # Машиночитаемый индекс
-├── AGENTS.md            # Инструкция для AI-агента разработки
-├── ROADMAP.md           # Этапы 1–4
-├── CHANGELOG.md
-└── task.md              # BRD/SRS (источник требований)
+skills/
+  product/
+  architecture/
+  ai/
+  rag/
+  security/
+  mcp/
+catalog.json
+LICENSE
+README.md
 ```
-
----
-
-## Development Status
-
-| Stage | Status | Goal |
-|-------|--------|------|
-| 1 Foundation | done | 10 Product Skills + стандарты |
-| 2 Growth | done | **50 Skills**, LICENSE, CI |
-| 3 Scale | in progress | 100 Skills (Jira, Enterprise, GitHub…) |
-
-См. [ROADMAP.md](ROADMAP.md) · [TODO.md](TODO.md) · [CHANGELOG.md](CHANGELOG.md)
-
----
-
-## Contributing
-
-Новый Skill: скопируйте [skills/_template/skill.md](skills/_template/skill.md), следуйте [SKILL_STANDARD.md](docs/SKILL_STANDARD.md).
-
-→ [CONTRIBUTING.md](CONTRIBUTING.md) · [GitHub Setup](docs/GITHUB_SETUP.md)
 
 ---
 
