@@ -57,3 +57,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - architecture/scalability-advisor skill (scalability assessment Playbook)
 - ai/ai-solution-architect skill (AI system architecture Playbook)
 - ai/prompt-engineer skill (production prompt design Playbook)
+- ai/prompt-reviewer skill (prompt quality and safety review Playbook)
