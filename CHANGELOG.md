@@ -6,9 +6,13 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
-### Added
+### Changed
 
 - Stage 2 planning tasks in TODO.md
+
+### Added
+
+- MIT LICENSE
 
 ## [0.2.0] — 2026-07-01
 
