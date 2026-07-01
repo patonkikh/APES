@@ -64,3 +64,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - product/okr-builder skill (OKR builder Playbook)
 - product/sprint-planner skill (sprint planning Playbook)
 - rag/rag-architecture-designer skill (RAG pipeline architecture Playbook)
+- rag/chunking-strategy-advisor skill (document chunking Playbook)
