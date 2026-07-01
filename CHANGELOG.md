@@ -78,3 +78,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/ai-evaluation-builder skill
 - ai/ai-cost-optimizer skill
 - ai/ai-latency-optimizer skill
+- mcp/mcp-server-generator skill
