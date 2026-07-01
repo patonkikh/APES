@@ -66,3 +66,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - rag/rag-architecture-designer skill (RAG pipeline architecture Playbook)
 - rag/chunking-strategy-advisor skill (document chunking Playbook)
 - rag/embedding-strategy-advisor skill (embedding model selection Playbook)
+- rag/retriever-optimizer skill (retrieval optimization Playbook)
