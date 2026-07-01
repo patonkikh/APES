@@ -1,0 +1,52 @@
+name: Skill Request
+description: Предложить новый Engineering Playbook Skill
+title: "[Skill] "
+labels: ["enhancement", "skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишите инженерную задачу, для которой нужен Skill. Один Skill = одна задача.
+  - type: input
+    id: skill-name
+    attributes:
+      label: Предлагаемое имя (kebab-case)
+      placeholder: prd-generator
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Категория
+      options:
+        - product
+        - architecture
+        - ai
+        - rag
+        - security
+        - mcp
+        - jira
+        - enterprise
+        - startup
+        - github
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу решает Skill?
+      description: Что на входе, что на выходе?
+    validations:
+      required: true
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Какая методология?
+      placeholder: JTBD, RICE, C4, OWASP LLM Top 10...
+    validations:
+      required: true
+  - type: textarea
+    id: chain
+    attributes:
+      label: Связь с другими Skills (Next Skills)
+      placeholder: product/prd-generator → architecture/solution-architecture

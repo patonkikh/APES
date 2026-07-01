@@ -1,25 +1,103 @@
-# OS
+# --- OS (Windows / macOS / Linux) ---
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
 
-# Editor
-.vscode/
-.idea/
+# --- OneDrive / cloud sync ---
+~$*
+*.tmp
+*.temp
+*.bak
 *.swp
 *.swo
 *~
 
-# Environment
+# --- Editors & IDEs ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.classpath
+.settings/
+*.iml
+
+# --- Cursor / local agent tooling (not part of APES distribution) ---
+.cursor/
+.cursorignore
+*.plan.md
+agent-transcripts/
+
+# --- Environment & secrets ---
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+service-account*.json
 
-# Cursor
-.cursor/
-
-# Build / temp
+# --- Python (scripts/) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.eggs/
 dist/
 build/
-*.tmp
-*.bak
+pip-log.txt
+
+# --- Node (if added later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Logs & dumps ---
+*.log
+logs/
+*.dump
+
+# --- Archives & binaries (not source) ---
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.dylib
+
+# --- Test / local output ---
+test_output/
+output/
+.cache/
+tmp/
+temp/

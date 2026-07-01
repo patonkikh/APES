@@ -8,7 +8,9 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
-- Stage 3 planning (Jira, Enterprise, Startup, GitHub categories)
+- GitHub: CI workflow, CONTRIBUTING.md, issue template
+- Expanded .gitignore for IDE, Python, secrets, Cursor local files
+- README redesigned for GitHub (badges, catalog, pipelines)
 
 ## [0.5.0] — 2026-07-01
 
