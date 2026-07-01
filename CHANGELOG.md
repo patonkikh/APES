@@ -42,3 +42,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 [0.1.0]: https://github.com/apes-skills/apes/releases/tag/v0.1.0
 - architecture/solution-architecture skill (solution design from PRD Playbook)
 - architecture/system-context-builder skill (C4 Level 1 context diagram Playbook)
+- architecture/container-diagram-builder skill (C4 Level 2 container diagram Playbook)
