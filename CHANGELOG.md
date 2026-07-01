@@ -69,3 +69,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - rag/retriever-optimizer skill (retrieval optimization Playbook)
 - rag/hybrid-search-advisor skill (hybrid search fusion Playbook)
 - security/prompt-injection-detector skill
+- security/ai-threat-modeling skill
