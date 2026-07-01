@@ -13,8 +13,8 @@
 | Задача | Статус |
 |--------|--------|
 | Инфраструктура репозитория (git, README, AGENTS) | done |
-| ROADMAP, TODO, CHANGELOG | in progress |
-| docs/ARCHITECTURE.md | pending |
+| ROADMAP, TODO, CHANGELOG | done |
+| docs/ARCHITECTURE.md | in progress |
 | docs/SKILL_STANDARD.md | pending |
 | docs/adr/0001-skill-file-format.md | pending |
 | skills/_template/ | pending |

@@ -11,6 +11,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - Project README with install instructions
 - AGENTS.md development workflow
 - ROADMAP.md and TODO.md trackers
+- CHANGELOG.md
+- docs/ARCHITECTURE.md platform architecture
 
 ## [0.1.0] — 2026-07-01
 

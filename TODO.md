@@ -10,8 +10,8 @@
 - [x] Инициализировать git и .gitignore
 - [x] README.md
 - [x] AGENTS.md
-- [ ] ROADMAP.md, TODO.md (этот файл)
-- [ ] CHANGELOG.md
+- [x] ROADMAP.md, TODO.md (этот файл)
+- [x] CHANGELOG.md
 - [ ] docs/ARCHITECTURE.md
 - [ ] docs/SKILL_STANDARD.md
 - [ ] docs/adr/0001-skill-file-format.md
