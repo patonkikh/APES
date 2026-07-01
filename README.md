@@ -34,12 +34,13 @@ skills/
   architecture/     # Solution architecture, ADR, API design
   ai/               # AI engineering, prompts, multi-agent
   rag/              # RAG architecture and optimization
-  security/         # AI security and governance
-  ...
+  mcp/              # MCP server, client, tools
 docs/
   ARCHITECTURE.md   # Platform architecture
   SKILL_STANDARD.md # Engineering Playbook standard
+  PUBLISHING.md     # Distribution guide
   adr/              # Architecture Decision Records
+catalog.json        # Machine-readable skill index
 ```
 
 ## Documentation
@@ -52,25 +53,29 @@ docs/
 | [TODO.md](TODO.md) | Current tasks |
 | [CHANGELOG.md](CHANGELOG.md) | Change log |
 
-## Stage 1 (current)
+## Status — 50 Skills (Stage 2 complete)
 
-- Platform architecture and standards
-- First 10 Product Skills (Discovery → Strategy → Delivery chain)
+| Category | Skills |
+|----------|--------|
+| product | 15 |
+| architecture | 10 |
+| ai | 10 |
+| rag | 5 |
+| security | 5 |
+| mcp | 5 |
 
-Skills available: idea-validator, problem-statement-builder, persona-generator, product-vision-builder, feature-prioritization, prd-generator, epic-generator, user-story-generator, acceptance-criteria-generator, story-mapping.
+Full index: [catalog.json](catalog.json)
 
-See [docs/SKILL_CHAIN.md](docs/SKILL_CHAIN.md) for the Product pipeline.
+Skill chains: [Product](docs/SKILL_CHAIN.md) · [Architecture](docs/SKILL_CHAIN_ARCHITECTURE.md) · [AI](docs/SKILL_CHAIN_AI.md) · [RAG](docs/SKILL_CHAIN_RAG.md) · [Security](docs/SKILL_CHAIN_SECURITY.md) · [MCP](docs/SKILL_CHAIN_MCP.md)
 
-## Stage 2 (current)
+```bash
+python scripts/validate_skills.py
+python scripts/generate_catalog.py
+```
 
-- MIT License
-- 5 Architecture Skills (C4 + ADR + review)
+## Stage 3 (current)
 
-Architecture chain: solution-architecture → system-context-builder → container-diagram-builder → adr-generator → architecture-review.
-
-See [docs/SKILL_CHAIN_ARCHITECTURE.md](docs/SKILL_CHAIN_ARCHITECTURE.md).
-
-Run validation: `python scripts/validate_skills.py`
+Expand to 100 Skills: Jira, Enterprise, Startup, GitHub.
 
 ## License
 
