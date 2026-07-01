@@ -76,3 +76,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ai/multi-agent-planner skill
 - ai/ai-workflow-builder skill
 - ai/ai-evaluation-builder skill
+- ai/ai-cost-optimizer skill
