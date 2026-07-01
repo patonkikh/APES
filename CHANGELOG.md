@@ -70,3 +70,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - rag/hybrid-search-advisor skill (hybrid search fusion Playbook)
 - security/prompt-injection-detector skill
 - security/ai-threat-modeling skill
+- security/guardrails-builder skill
