@@ -52,3 +52,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 [0.1.0]: https://github.com/apes-skills/apes/releases/tag/v0.1.0
 - architecture/api-designer skill (REST API design Playbook)
 - architecture/integration-planner skill (integration patterns and rollout Playbook)
+- architecture/component-diagram-builder skill (C4 Level 3 component diagram Playbook)
