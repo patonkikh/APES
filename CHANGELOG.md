@@ -53,3 +53,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - architecture/api-designer skill (REST API design Playbook)
 - architecture/integration-planner skill (integration patterns and rollout Playbook)
 - architecture/component-diagram-builder skill (C4 Level 3 component diagram Playbook)
+- architecture/data-flow-analyzer skill (data flow and compliance Playbook)
