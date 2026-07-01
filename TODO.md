@@ -16,7 +16,7 @@
 - [x] docs/SKILL_STANDARD.md
 - [x] docs/adr/0001-skill-file-format.md
 - [x] skills/_template/
-- [ ] idea-validator
+- [x] idea-validator
 - [x] problem-statement-builder
 - [x] persona-generator
 - [x] product-vision-builder
