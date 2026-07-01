@@ -75,3 +75,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - security/ai-governance-advisor skill
 - ai/multi-agent-planner skill
 - ai/ai-workflow-builder skill
+- ai/ai-evaluation-builder skill
