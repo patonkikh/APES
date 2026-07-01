@@ -71,3 +71,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - security/prompt-injection-detector skill
 - security/ai-threat-modeling skill
 - security/guardrails-builder skill
+- security/owasp-llm-reviewer skill
