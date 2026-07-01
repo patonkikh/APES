@@ -105,7 +105,7 @@ APES/
 
 Новый Skill: скопируйте [skills/_template/skill.md](skills/_template/skill.md), следуйте [SKILL_STANDARD.md](docs/SKILL_STANDARD.md).
 
-→ [CONTRIBUTING.md](CONTRIBUTING.md)
+→ [CONTRIBUTING.md](CONTRIBUTING.md) · [GitHub Setup](docs/GITHUB_SETUP.md)
 
 ---
 
