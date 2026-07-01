@@ -2,13 +2,13 @@
 
 **Источник:** [task.md](task.md) §14  
 **Последнее обновление:** 2026-07-01  
-**Текущий этап:** Этап 1 — архитектура, стандарты, первые 10 Product Skills
+**Текущий этап:** Этап 2 — Growth (Этап 1 завершён)
 
 ---
 
-## Этап 1 — Foundation (текущий)
+## Этап 1 — Foundation (завершён)
 
-**Цель:** архитектура платформы, стандарты Skills, публикация первых 10 Skills.
+**Цель:** архитектура платформы, стандарты Skills, публикация первых 10 Skills. **Статус: done (2026-07-01)**
 
 | Задача | Статус |
 |--------|--------|
@@ -28,7 +28,7 @@
 | Product Skill: user-story-generator | done |
 | Product Skill: acceptance-criteria-generator | done |
 | Product Skill: story-mapping | done |
-| Ревью цепочки Next Skills | pending |
+| Ревью цепочки Next Skills | done |
 
 ### Цепочка Skills (Этап 1)
 
@@ -41,7 +41,7 @@ idea-validator → problem-statement-builder → persona-generator
 
 ---
 
-## Этап 2 — Growth
+## Этап 2 — Growth (текущий)
 
 - Расширение библиотеки до 50 Skills
 - Публикация в основных каталогах Skills

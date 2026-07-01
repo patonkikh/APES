@@ -57,6 +57,10 @@ docs/
 - Platform architecture and standards
 - First 10 Product Skills (Discovery → Strategy → Delivery chain)
 
+Skills available: idea-validator, problem-statement-builder, persona-generator, product-vision-builder, feature-prioritization, prd-generator, epic-generator, user-story-generator, acceptance-criteria-generator, story-mapping.
+
+See [docs/SKILL_CHAIN.md](docs/SKILL_CHAIN.md) for the recommended pipeline.
+
 ## License
 
 MIT (to be added in Stage 2)

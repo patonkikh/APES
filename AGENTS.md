@@ -83,7 +83,17 @@
 
 | Дата | Коммит | Описание |
 |------|--------|----------|
+| 2026-07-01 | 891060a | chore: fix task.md markdown formatting |
 | 2026-07-01 | c6d5fea | chore: init repository with gitignore |
-| 2026-07-01 | — | docs: add project README |
+| 2026-07-01 | 793d84b | docs: add project README |
+| 2026-07-01 | 076fb34 | docs: add agent instructions |
+| 2026-07-01 | dddab80 | docs: add roadmap and todo tracker |
+| 2026-07-01 | 9847c90 | docs: add changelog |
+| 2026-07-01 | 256a12d | docs: add platform architecture |
+| 2026-07-01 | 3054ab6 | docs: add skill engineering standard |
+| 2026-07-01 | b8f58df | docs(adr): adopt lowercase skill.md format |
+| 2026-07-01 | 8bc9fd2 | feat: add skill template |
+| 2026-07-01 | cf587fd–ffd100b | feat(product): add 10 Product Skills |
+| 2026-07-01 | — | docs: mark stage 1 complete |
 
 Обновлять эту таблицу после каждого коммита.

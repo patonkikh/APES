@@ -2,36 +2,25 @@
 
 **Последнее обновление:** 2026-07-01
 
-## Активные задачи (Этап 1)
+## Этап 1 — завершён (2026-07-01)
 
-### Инфраструктура
+Все задачи Этапа 1 выполнены. См. [ROADMAP.md](ROADMAP.md).
 
-- [x] Исправить форматирование task.md
-- [x] Инициализировать git и .gitignore
-- [x] README.md
-- [x] AGENTS.md
-- [x] ROADMAP.md, TODO.md (этот файл)
-- [x] CHANGELOG.md
-- [x] docs/ARCHITECTURE.md
-- [x] docs/SKILL_STANDARD.md
-- [x] docs/adr/0001-skill-file-format.md
-- [x] skills/_template/
-- [x] idea-validator
-- [x] problem-statement-builder
-- [x] persona-generator
-- [x] product-vision-builder
-- [x] feature-prioritization
-- [x] prd-generator
-- [x] epic-generator
-- [x] user-story-generator
-- [x] acceptance-criteria-generator
-- [x] story-mapping
+## Активные задачи (Этап 2)
 
-### Финализация Этапа 1
+### Следующие приоритеты
 
-- [ ] Ревью цепочки Next Skills
-- [ ] Обновить ROADMAP — отметить Этап 1 complete
+- [ ] Добавить категорию Architecture (первые 5 Skills)
+- [ ] Добавить LICENSE (MIT)
+- [ ] CI-валидация skill.md по SKILL_STANDARD
+- [ ] Публикация в каталогах Skills
+
+### Product — расширение
+
+- [ ] product-discovery-assistant
+- [ ] okr-builder
+- [ ] sprint-planner
 
 ## Следующий шаг
 
-Создать CHANGELOG.md, затем docs/ARCHITECTURE.md.
+Начать категорию Architecture: `architecture/solution-architecture` skill.
