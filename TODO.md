@@ -17,7 +17,7 @@
 - [x] docs/adr/0001-skill-file-format.md
 - [x] skills/_template/
 - [ ] idea-validator
-- [ ] problem-statement-builder
+- [x] problem-statement-builder
 - [ ] persona-generator
 - [ ] product-vision-builder
 - [ ] feature-prioritization

@@ -19,7 +19,7 @@
 | docs/adr/0001-skill-file-format.md | done |
 | skills/_template/ | done |
 | Product Skill: idea-validator | in progress |
-| Product Skill: problem-statement-builder | pending |
+| Product Skill: problem-statement-builder | done |
 | Product Skill: persona-generator | pending |
 | Product Skill: product-vision-builder | pending |
 | Product Skill: feature-prioritization | pending |
