@@ -13,6 +13,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - ROADMAP.md and TODO.md trackers
 - CHANGELOG.md
 - docs/ARCHITECTURE.md platform architecture
+- docs/SKILL_STANDARD.md engineering playbook standard
 
 ## [0.1.0] — 2026-07-01
 

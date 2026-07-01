@@ -14,8 +14,8 @@
 |--------|--------|
 | Инфраструктура репозитория (git, README, AGENTS) | done |
 | ROADMAP, TODO, CHANGELOG | done |
-| docs/ARCHITECTURE.md | in progress |
-| docs/SKILL_STANDARD.md | pending |
+| docs/ARCHITECTURE.md | done |
+| docs/SKILL_STANDARD.md | in progress |
 | docs/adr/0001-skill-file-format.md | pending |
 | skills/_template/ | pending |
 | Product Skill: idea-validator | pending |
