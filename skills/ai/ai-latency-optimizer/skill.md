@@ -15,6 +15,7 @@ Reduce AI inference latency: pipeline profiling, parallelization, caching, model
 
 **Input:** Workflow spec or architecture, latency SLA (p50/p95), current latency baseline (optional), quality constraints  
 **Output:** Latency Optimization Plan with bottleneck analysis, optimizations ranked by impact, and SLA compliance projection
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

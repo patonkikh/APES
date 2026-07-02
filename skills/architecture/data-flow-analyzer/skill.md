@@ -15,6 +15,7 @@ Analyze and document data flows across the system: data origins, transformations
 
 **Input:** Container diagram, integration plan, data entities (optional), compliance requirements  
 **Output:** Data Flow document with DFD-style diagrams, data inventory, and privacy classification
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

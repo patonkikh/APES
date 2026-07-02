@@ -15,6 +15,7 @@ Decompose a PRD or feature scope into well-structured epics with goals, scope bo
 
 **Input:** PRD or feature description, priorities (optional)  
 **Output:** Epic breakdown document with epic goals, boundaries, and suggested user story themes
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

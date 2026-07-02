@@ -15,6 +15,7 @@ Write testable acceptance criteria for user stories using Given-When-Then (BDD) 
 
 **Input:** User story (As/Want/So format)  
 **Output:** Acceptance criteria set with happy path, edge cases, and negative scenarios
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

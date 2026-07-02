@@ -15,6 +15,7 @@ Plan a development sprint: select stories, define sprint goal, estimate capacity
 
 **Input:** Prioritized backlog (user stories/epics), team capacity, sprint duration, OKRs (optional)  
 **Output:** Sprint plan with goal, committed backlog, capacity allocation, and risks
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

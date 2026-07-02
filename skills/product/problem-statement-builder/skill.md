@@ -15,6 +15,7 @@ Transform a raw problem hypothesis into a structured, testable Problem Statement
 
 **Input:** Problem hypothesis, target user context, evidence (optional)  
 **Output:** Problem Statement document with JTBD frame, success criteria, and scope boundaries
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

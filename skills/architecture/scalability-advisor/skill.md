@@ -15,6 +15,7 @@ Assess system scalability: identify bottlenecks, recommend scaling strategies pe
 
 **Input:** Container diagram, NFRs (throughput, latency, users), data flow analysis (optional)  
 **Output:** Scalability Assessment with bottleneck analysis, scaling recommendations, and capacity model
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

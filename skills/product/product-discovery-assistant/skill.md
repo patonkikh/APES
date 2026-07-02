@@ -15,6 +15,7 @@ Facilitate structured product discovery using Opportunity Solution Tree (OST) an
 
 **Input:** Product outcome goal, existing research (optional), team constraints  
 **Output:** Discovery board with opportunity tree, prioritized opportunities, and experiment backlog
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

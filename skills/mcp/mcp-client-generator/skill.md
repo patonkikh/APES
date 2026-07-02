@@ -15,6 +15,7 @@ Generate MCP client integration: connection setup, capability discovery, tool in
 
 **Input:** Target MCP server(s), host application type (agent IDE, backend service, CLI), auth model, required capabilities  
 **Output:** MCP Client Integration Specification with connection config, invocation patterns, and test plan
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Create a visual story map (Jeff Patton method) organizing user activities, tasks
 
 **Input:** Product scope, epics, user stories (optional), persona (optional)  
 **Output:** Story map document with backbone, walking skeleton, and release slices
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

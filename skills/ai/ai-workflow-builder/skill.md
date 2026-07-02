@@ -15,6 +15,7 @@ Build an executable AI workflow pipeline: stage definitions, data flow, branchin
 
 **Input:** Orchestration plan or use case, AI architecture, tool/MCP inventory (optional), NFRs (latency, throughput)  
 **Output:** AI Workflow Specification with stage graph, I/O contracts, and deployment configuration outline
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

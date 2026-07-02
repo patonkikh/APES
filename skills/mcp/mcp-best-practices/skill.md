@@ -15,6 +15,7 @@ Document and apply MCP implementation best practices: server design, client inte
 
 **Input:** MCP server/client implementation (existing or planned), deployment target, team constraints  
 **Output:** MCP Best Practices Compliance Report with gap analysis, recommended patterns, and operational playbook
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

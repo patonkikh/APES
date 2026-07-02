@@ -15,6 +15,7 @@ Design a validated Value Proposition Canvas that maps customer jobs, pains, and 
 
 **Input:** Persona, problem statement, product concept (optional), competitive context (optional)  
 **Output:** Value Proposition Canvas document with fit score and prioritized value hypotheses
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Design a multi-agent orchestration architecture: agent roles, communication patt
 
 **Input:** Use case description, AI architecture (optional), task decomposition, constraints (latency, cost, reliability)  
 **Output:** Multi-Agent Orchestration Plan with agent roster, interaction diagram, and coordination rules
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

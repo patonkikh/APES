@@ -15,6 +15,7 @@ Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and 
 
 **Input:** RAG architecture, golden query set (optional), current retrieval metrics  
 **Output:** Retriever optimization report with parameter recommendations and A/B test plan
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

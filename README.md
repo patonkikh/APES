@@ -166,7 +166,7 @@ skills/<category>/<skill-name>/
 
 
 
-**Flagship skills with examples:** 22 skills across all categories — see [catalog.json](catalog.json) (`has-examples: true`)
+**Examples:** Every skill includes [examples.md](skills/product/prd-generator/examples.md) with worked input/output (progressive disclosure).
 
 
 

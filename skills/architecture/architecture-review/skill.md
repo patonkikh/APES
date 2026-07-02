@@ -15,6 +15,7 @@ Conduct a structured architecture review against requirements, quality attribute
 
 **Input:** Solution architecture, context/container diagrams, ADRs (optional), PRD/NFRs  
 **Output:** Architecture Review Report with findings, risk rating, and action items
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

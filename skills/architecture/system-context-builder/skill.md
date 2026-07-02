@@ -15,6 +15,7 @@ Produce a C4 Level 1 (System Context) diagram and description showing the system
 
 **Input:** Solution architecture or PRD, stakeholder list (optional)  
 **Output:** System Context document with Mermaid diagram, actor descriptions, and external system inventory
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Design an offline and online evaluation harness: datasets, metrics, baselines, r
 
 **Input:** AI architecture or workflow spec, quality requirements, sample inputs/outputs (optional), risk level  
 **Output:** Evaluation Plan with dataset spec, metric definitions, harness design, and rollout gates
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

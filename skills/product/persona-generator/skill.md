@@ -15,6 +15,7 @@ Create evidence-based user personas focused on behaviors, goals, and pain points
 
 **Input:** Target user segment, problem statement (optional), research data (optional)  
 **Output:** Persona document with empathy map, behavioral traits, and scenario triggers
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Produce a C4 Level 3 (Component) diagram for a selected container, showing inter
 
 **Input:** Container diagram, target container name, component responsibilities (optional)  
 **Output:** Component diagram document with Mermaid diagram and component inventory
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

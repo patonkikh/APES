@@ -15,6 +15,7 @@ Select and configure embedding models and indexing strategy for a RAG corpus bas
 
 **Input:** Corpus description, languages, domain (general/technical/legal), budget, latency requirements  
 **Output:** Embedding strategy document with model recommendation, dimension trade-offs, and index configuration
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

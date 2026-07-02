@@ -15,6 +15,7 @@ Define AI governance policies, roles, compliance mappings, and operational contr
 
 **Input:** Organization context, jurisdiction/regulations, OWASP review or threat model (optional), use case catalog, risk appetite  
 **Output:** AI Governance Framework with policies, RACI matrix, compliance mapping, audit checklist, and lifecycle gates
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

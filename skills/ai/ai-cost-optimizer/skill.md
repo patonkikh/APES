@@ -15,6 +15,7 @@ Optimize LLM inference costs: token budget allocation, model routing, caching st
 
 **Input:** AI architecture or workflow spec, usage volume projections, quality thresholds, current cost baseline (optional)  
 **Output:** Cost Optimization Plan with savings estimates, trade-off analysis, and implementation priorities
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

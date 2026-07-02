@@ -15,6 +15,7 @@ Plan integrations between system containers and external systems: patterns, cont
 
 **Input:** Container diagram, API designs (optional), external system inventory  
 **Output:** Integration Plan with connection matrix, sequence flows, and rollout phases
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

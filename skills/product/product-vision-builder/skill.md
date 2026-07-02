@@ -15,6 +15,7 @@ Define a product vision that connects user problems, strategic direction, and me
 
 **Input:** Problem statement, persona (optional), business context (optional)  
 **Output:** Product Vision document with vision statement, principles, and north star metric candidate
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

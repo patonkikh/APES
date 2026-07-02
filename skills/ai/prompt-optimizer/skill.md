@@ -15,6 +15,7 @@ Optimize prompts for token efficiency, latency, and output quality while preserv
 
 **Input:** Prompt specification (reviewed), test cases, optimization goal (cost/latency/quality)  
 **Output:** Optimized prompt with change log, token comparison, and regression test plan
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

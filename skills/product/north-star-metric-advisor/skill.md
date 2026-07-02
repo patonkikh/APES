@@ -15,6 +15,7 @@ Define a single north star metric with input metrics, guardrails, and measuremen
 
 **Input:** Product vision or value proposition, business model, user journey, current analytics (optional)  
 **Output:** North Star Metric document with definition, input metrics, anti-metrics, and OKR alignment notes
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/
 
 **Input:** System context diagram, solution architecture  
 **Output:** Container diagram document with Mermaid diagram, container inventory, and communication matrix
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 
