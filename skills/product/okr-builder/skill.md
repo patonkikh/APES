@@ -15,6 +15,7 @@ Create aligned Objectives and Key Results (OKRs) for product teams with measurab
 
 **Input:** Product vision, strategic priorities, time period (quarter), team scope  
 **Output:** OKR document with 1–3 objectives, 2–4 KRs each, and linked initiatives
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

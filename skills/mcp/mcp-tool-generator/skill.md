@@ -15,6 +15,7 @@ Design MCP tools: input/output schemas, handler logic outline, idempotency rules
 
 **Input:** Server scope, tool use cases, underlying API capabilities, safety constraints  
 **Output:** MCP Tool Design Document per tool with JSON Schema, description, examples, and edge case handling
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

@@ -15,6 +15,7 @@ Design hybrid search strategy combining dense vector retrieval and sparse keywor
 
 **Input:** Query patterns, retrieval failure analysis, corpus characteristics  
 **Output:** Hybrid search specification with fusion method, weights, and evaluation plan
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

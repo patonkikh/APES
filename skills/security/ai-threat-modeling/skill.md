@@ -15,6 +15,7 @@ Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted 
 
 **Input:** System architecture (containers, data flows), AI pipeline description, asset inventory, trust boundaries  
 **Output:** AI Threat Model document with assets, threats, attack trees, risk ratings, and control recommendations
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

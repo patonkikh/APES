@@ -15,6 +15,7 @@ Recommend document chunking strategy: chunk size, overlap, boundaries, and metad
 
 **Input:** Document types, sample content (optional), query patterns, RAG architecture  
 **Output:** Chunking specification with parameters, boundary rules, and eval recommendations
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

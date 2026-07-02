@@ -15,6 +15,7 @@ Design layered input and output guardrails for LLM applications: filters, classi
 
 **Input:** Threat model or injection report, application flow, policy requirements, latency/cost constraints  
 **Output:** Guardrails Design document with layer architecture, rule catalog, integration points, and fallback behaviors
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

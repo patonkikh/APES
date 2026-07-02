@@ -15,6 +15,7 @@ Design REST or event-based APIs from container architecture: resources, operatio
 
 **Input:** Container diagram, functional requirements, integration points  
 **Output:** API Design document with resource model, endpoint catalog, schema definitions, and error conventions
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

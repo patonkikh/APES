@@ -15,6 +15,7 @@ Review prompts against quality, safety, and reliability criteria; produce findin
 
 **Input:** Prompt specification or raw prompt text, use case context, risk level  
 **Output:** Prompt Review Report with scored dimensions, findings, and revised sections
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

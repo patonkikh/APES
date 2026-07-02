@@ -35,7 +35,7 @@
       "path": "ai/ai-solution-architect/skill.md",
       "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "ai/ai-workflow-builder",
@@ -89,7 +89,7 @@
       "path": "ai/prompt-reviewer/skill.md",
       "description": "Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "architecture/adr-generator",
@@ -98,7 +98,7 @@
       "path": "architecture/adr-generator/skill.md",
       "description": "Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences. Use when working on architecture decision records, ADRs, technical decisions.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "architecture/api-designer",
@@ -107,7 +107,7 @@
       "path": "architecture/api-designer/skill.md",
       "description": "Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "architecture/architecture-review",
@@ -206,7 +206,7 @@
       "path": "mcp/mcp-security-review/skill.md",
       "description": "Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "mcp/mcp-server-generator",
@@ -224,7 +224,7 @@
       "path": "mcp/mcp-tool-generator/skill.md",
       "description": "Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "product/acceptance-criteria-generator",
@@ -251,7 +251,7 @@
       "path": "product/feature-prioritization/skill.md",
       "description": "Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "product/idea-validator",
@@ -278,7 +278,7 @@
       "path": "product/okr-builder/skill.md",
       "description": "Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "product/persona-generator",
@@ -350,7 +350,7 @@
       "path": "product/user-story-generator/skill.md",
       "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "product/value-proposition-designer",
@@ -368,7 +368,7 @@
       "path": "rag/chunking-strategy-advisor/skill.md",
       "description": "Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "rag/embedding-strategy-advisor",
@@ -386,7 +386,7 @@
       "path": "rag/hybrid-search-advisor/skill.md",
       "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "rag/rag-architecture-designer",
@@ -422,7 +422,7 @@
       "path": "security/ai-threat-modeling/skill.md",
       "description": "Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "security/guardrails-builder",
@@ -431,7 +431,7 @@
       "path": "security/guardrails-builder/skill.md",
       "description": "Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": false
+      "has-examples": true
     },
     {
       "id": "security/owasp-llm-reviewer",

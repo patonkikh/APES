@@ -15,6 +15,7 @@ Prioritize a feature backlog using a structured scoring framework (RICE by defau
 
 **Input:** Feature list, product vision or goals (optional), constraints (timeline, team size)  
 **Output:** Prioritized feature ranking with scores, trade-off notes, and recommended MVP cut line
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

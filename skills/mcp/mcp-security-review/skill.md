@@ -15,6 +15,7 @@ Conduct a security review of MCP server and client implementations: threat model
 
 **Input:** MCP server/client specification, tool designs, auth model, data classification, deployment context  
 **Output:** MCP Security Review Report with findings ranked by severity, threat model, and remediation checklist
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

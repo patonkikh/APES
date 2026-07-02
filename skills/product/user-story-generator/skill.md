@@ -15,6 +15,7 @@ Generate INVEST-compliant user stories from epics or requirements with clear val
 
 **Input:** Epic description, story themes, or FR list; persona (optional)  
 **Output:** User story set with IDs, INVEST validation, and dependency notes
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

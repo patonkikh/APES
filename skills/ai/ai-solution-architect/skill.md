@@ -15,6 +15,7 @@ Design an AI system architecture: model selection, inference pipeline, context m
 
 **Input:** Use case description, PRD/NFRs, data sources, constraints (budget, latency, privacy)  
 **Output:** AI Architecture document with component diagram, model strategy, and quality gates
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

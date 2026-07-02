@@ -166,7 +166,7 @@ skills/<category>/<skill-name>/
 
 
 
-**Flagship skills with examples:** `idea-validator`, `prd-generator`, `solution-architecture`, `prompt-engineer`, `context-engineering`, `rag-architecture-designer`, `prompt-injection-detector`, `owasp-llm-reviewer`, `mcp-server-generator` (9 skills)
+**Flagship skills with examples:** 22 skills across all categories — see [catalog.json](catalog.json) (`has-examples: true`)
 
 
 
