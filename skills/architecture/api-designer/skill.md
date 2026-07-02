@@ -1,3 +1,12 @@
+---
+name: api-designer
+description: >
+  Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # API Designer
 
 # Purpose

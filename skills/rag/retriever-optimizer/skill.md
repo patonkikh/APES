@@ -1,3 +1,12 @@
+---
+name: retriever-optimizer
+description: >
+  Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.
+metadata:
+  apes-version: "1.1"
+  category: rag
+---
+
 # Retriever Optimizer
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: prd-generator
+description: >
+  Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics. Use when working on PRDs, MVP specs, functional requirements.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # PRD Generator
 
 # Purpose
@@ -5,7 +14,8 @@
 Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics.
 
 **Input:** Feature scope, product vision (optional), prioritization results (optional), constraints  
-**Output:** PRD document following standard structure with functional and non-functional requirements
+**Output:** PRD document following standard structure with functional and non-functional requirements  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

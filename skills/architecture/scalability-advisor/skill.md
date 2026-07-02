@@ -1,3 +1,12 @@
+---
+name: scalability-advisor
+description: >
+  Assess system scalability: identify bottlenecks, recommend scaling strategies per container, and define capacity planning guidelines. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Scalability Advisor
 
 # Purpose

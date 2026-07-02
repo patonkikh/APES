@@ -1,3 +1,12 @@
+---
+name: architecture-review
+description: >
+  Conduct a structured architecture review against requirements, quality attributes, and best practices; produce findings with severity and remediation recommendations. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Architecture Review
 
 # Purpose

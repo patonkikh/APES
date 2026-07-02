@@ -1,3 +1,12 @@
+---
+name: integration-planner
+description: >
+  Plan integrations between system containers and external systems: patterns, contracts, sequencing, failure handling, and monitoring. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Integration Planner
 
 # Purpose

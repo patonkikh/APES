@@ -1,3 +1,12 @@
+---
+name: ai-threat-modeling
+description: >
+  Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.
+metadata:
+  apes-version: "1.1"
+  category: security
+---
+
 # AI Threat Modeling
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: sprint-planner
+description: >
+  Plan a development sprint: select stories, define sprint goal, estimate capacity, and produce a sprint backlog with risk buffer. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Sprint Planner
 
 # Purpose

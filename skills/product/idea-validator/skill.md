@@ -1,3 +1,12 @@
+---
+name: idea-validator
+description: >
+  Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps. Use when working on validating product ideas, assumption mapping, go/no-go decisions.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Idea Validator
 
 # Purpose
@@ -5,7 +14,8 @@
 Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps.
 
 **Input:** Product idea description, target audience (if known), problem hypothesis (if any)  
-**Output:** Idea Validation Report with assumption map, scorecard, and recommendation
+**Output:** Idea Validation Report with assumption map, scorecard, and recommendation  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

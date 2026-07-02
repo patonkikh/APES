@@ -1,3 +1,12 @@
+---
+name: prompt-injection-detector
+description: >
+  Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.
+metadata:
+  apes-version: "1.1"
+  category: security
+---
+
 # Prompt Injection Detector
 
 # Purpose
@@ -5,7 +14,8 @@
 Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline.
 
 **Input:** Sample inputs (user messages, RAG chunks, tool outputs), application flow description, trust boundaries  
-**Output:** Injection Detection Report with pattern catalog, risk ratings, test cases, and mitigation recommendations
+**Output:** Injection Detection Report with pattern catalog, risk ratings, test cases, and mitigation recommendations  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

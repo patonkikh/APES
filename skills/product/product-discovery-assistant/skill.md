@@ -1,3 +1,12 @@
+---
+name: product-discovery-assistant
+description: >
+  Facilitate structured product discovery using Opportunity Solution Tree (OST) and Teresa Torres framework: map outcomes, opportunities, solutions, and experiments. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Product Discovery Assistant
 
 # Purpose

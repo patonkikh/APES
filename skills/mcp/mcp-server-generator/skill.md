@@ -1,3 +1,12 @@
+---
+name: mcp-server-generator
+description: >
+  Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration. Use when working on scaffolding MCP servers, MCP transport setup.
+metadata:
+  apes-version: "1.1"
+  category: mcp
+---
+
 # MCP Server Generator
 
 # Purpose
@@ -5,7 +14,8 @@
 Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration.
 
 **Input:** Integration target (API, database, service), required capabilities (tools/resources/prompts), runtime preference (optional), security constraints  
-**Output:** MCP Server Scaffold Specification with directory layout, capability manifest, and implementation checklist
+**Output:** MCP Server Scaffold Specification with directory layout, capability manifest, and implementation checklist  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

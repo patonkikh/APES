@@ -1,3 +1,12 @@
+---
+name: user-story-generator
+description: >
+  Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # User Story Generator
 
 # Purpose

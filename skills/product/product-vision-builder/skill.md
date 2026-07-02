@@ -1,3 +1,12 @@
+---
+name: product-vision-builder
+description: >
+  Define a product vision that connects user problems, strategic direction, and measurable north star using the Product Vision Canvas. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Product Vision Builder
 
 # Purpose

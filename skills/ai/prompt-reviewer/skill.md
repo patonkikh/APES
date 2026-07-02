@@ -1,3 +1,12 @@
+---
+name: prompt-reviewer
+description: >
+  Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # Prompt Reviewer
 
 # Purpose

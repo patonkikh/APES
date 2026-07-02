@@ -1,355 +1,455 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "skills": [
     {
       "id": "ai/ai-cost-optimizer",
-      "name": "Ai Cost Optimizer",
+      "name": "AI Cost Optimizer",
       "category": "ai",
       "path": "ai/ai-cost-optimizer/skill.md",
-      "description": "Optimize LLM inference costs: token budget allocation, model routing, caching strategy, and batching without breaching quality thresholds."
+      "description": "Optimize LLM inference costs: token budget allocation, model routing, caching strategy, and batching without breaching quality thresholds. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/ai-evaluation-builder",
-      "name": "Ai Evaluation Builder",
+      "name": "AI Evaluation Builder",
       "category": "ai",
       "path": "ai/ai-evaluation-builder/skill.md",
-      "description": "Design an offline and online evaluation harness: datasets, metrics, baselines, regression gates, and production monitoring for AI system quality."
+      "description": "Design an offline and online evaluation harness: datasets, metrics, baselines, regression gates, and production monitoring for AI system quality. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/ai-latency-optimizer",
-      "name": "Ai Latency Optimizer",
+      "name": "AI Latency Optimizer",
       "category": "ai",
       "path": "ai/ai-latency-optimizer/skill.md",
-      "description": "Reduce AI inference latency: pipeline profiling, parallelization, caching, model selection, and streaming strategies to meet SLA targets."
+      "description": "Reduce AI inference latency: pipeline profiling, parallelization, caching, model selection, and streaming strategies to meet SLA targets. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/ai-solution-architect",
-      "name": "Ai Solution Architect",
+      "name": "AI Solution Architect",
       "category": "ai",
       "path": "ai/ai-solution-architect/skill.md",
-      "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs."
+      "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/ai-workflow-builder",
-      "name": "Ai Workflow Builder",
+      "name": "AI Workflow Builder",
       "category": "ai",
       "path": "ai/ai-workflow-builder/skill.md",
-      "description": "Build an executable AI workflow pipeline: stage definitions, data flow, branching logic, retries, and integration points for production deployment."
+      "description": "Build an executable AI workflow pipeline: stage definitions, data flow, branching logic, retries, and integration points for production deployment. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/context-engineering",
       "name": "Context Engineering",
       "category": "ai",
       "path": "ai/context-engineering/skill.md",
-      "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow."
+      "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "ai/multi-agent-planner",
-      "name": "Multi Agent Planner",
+      "name": "Multi-Agent Planner",
       "category": "ai",
       "path": "ai/multi-agent-planner/skill.md",
-      "description": "Design a multi-agent orchestration architecture: agent roles, communication patterns, handoff protocols, and failure recovery for collaborative AI systems."
+      "description": "Design a multi-agent orchestration architecture: agent roles, communication patterns, handoff protocols, and failure recovery for collaborative AI systems. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/prompt-engineer",
       "name": "Prompt Engineer",
       "category": "ai",
       "path": "ai/prompt-engineer/skill.md",
-      "description": "Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts."
+      "description": "Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts. Use when working on designing prompts, system instructions, few-shot templates.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "ai/prompt-optimizer",
       "name": "Prompt Optimizer",
       "category": "ai",
       "path": "ai/prompt-optimizer/skill.md",
-      "description": "Optimize prompts for token efficiency, latency, and output quality while preserving task behavior."
+      "description": "Optimize prompts for token efficiency, latency, and output quality while preserving task behavior. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "ai/prompt-reviewer",
       "name": "Prompt Reviewer",
       "category": "ai",
       "path": "ai/prompt-reviewer/skill.md",
-      "description": "Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations."
+      "description": "Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/adr-generator",
-      "name": "Adr Generator",
+      "name": "ADR Generator",
       "category": "architecture",
       "path": "architecture/adr-generator/skill.md",
-      "description": "Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences."
+      "description": "Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences. Use when working on architecture decision records, ADRs, technical decisions.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/api-designer",
-      "name": "Api Designer",
+      "name": "API Designer",
       "category": "architecture",
       "path": "architecture/api-designer/skill.md",
-      "description": "Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy."
+      "description": "Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/architecture-review",
       "name": "Architecture Review",
       "category": "architecture",
       "path": "architecture/architecture-review/skill.md",
-      "description": "Conduct a structured architecture review against requirements, quality attributes, and best practices; produce findings with severity and remediation recommendations."
+      "description": "Conduct a structured architecture review against requirements, quality attributes, and best practices; produce findings with severity and remediation recommendations. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/component-diagram-builder",
       "name": "Component Diagram Builder",
       "category": "architecture",
       "path": "architecture/component-diagram-builder/skill.md",
-      "description": "Produce a C4 Level 3 (Component) diagram for a selected container, showing internal components, responsibilities, and dependencies."
+      "description": "Produce a C4 Level 3 (Component) diagram for a selected container, showing internal components, responsibilities, and dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/container-diagram-builder",
       "name": "Container Diagram Builder",
       "category": "architecture",
       "path": "architecture/container-diagram-builder/skill.md",
-      "description": "Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/runnable units with technology choices and communication paths."
+      "description": "Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/runnable units with technology choices and communication paths. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/data-flow-analyzer",
       "name": "Data Flow Analyzer",
       "category": "architecture",
       "path": "architecture/data-flow-analyzer/skill.md",
-      "description": "Analyze and document data flows across the system: data origins, transformations, storage, retention, and compliance boundaries."
+      "description": "Analyze and document data flows across the system: data origins, transformations, storage, retention, and compliance boundaries. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/integration-planner",
       "name": "Integration Planner",
       "category": "architecture",
       "path": "architecture/integration-planner/skill.md",
-      "description": "Plan integrations between system containers and external systems: patterns, contracts, sequencing, failure handling, and monitoring."
+      "description": "Plan integrations between system containers and external systems: patterns, contracts, sequencing, failure handling, and monitoring. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/scalability-advisor",
       "name": "Scalability Advisor",
       "category": "architecture",
       "path": "architecture/scalability-advisor/skill.md",
-      "description": "Assess system scalability: identify bottlenecks, recommend scaling strategies per container, and define capacity planning guidelines."
+      "description": "Assess system scalability: identify bottlenecks, recommend scaling strategies per container, and define capacity planning guidelines. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "architecture/solution-architecture",
       "name": "Solution Architecture",
       "category": "architecture",
       "path": "architecture/solution-architecture/skill.md",
-      "description": "Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs."
+      "description": "Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs. Use when working on solution architecture documents, component models.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "architecture/system-context-builder",
       "name": "System Context Builder",
       "category": "architecture",
       "path": "architecture/system-context-builder/skill.md",
-      "description": "Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies."
+      "description": "Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "mcp/mcp-best-practices",
-      "name": "Mcp Best Practices",
+      "name": "MCP Best Practices",
       "category": "mcp",
       "path": "mcp/mcp-best-practices/skill.md",
-      "description": "Document and apply MCP implementation best practices: server design, client integration, testing, versioning, observability, and operational readiness for production MCP deployments."
+      "description": "Document and apply MCP implementation best practices: server design, client integration, testing, versioning, observability, and operational readiness for production MCP deployments. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "mcp/mcp-client-generator",
-      "name": "Mcp Client Generator",
+      "name": "MCP Client Generator",
       "category": "mcp",
       "path": "mcp/mcp-client-generator/skill.md",
-      "description": "Generate MCP client integration: connection setup, capability discovery, tool invocation patterns, and error handling for agent applications."
+      "description": "Generate MCP client integration: connection setup, capability discovery, tool invocation patterns, and error handling for agent applications. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "mcp/mcp-security-review",
-      "name": "Mcp Security Review",
+      "name": "MCP Security Review",
       "category": "mcp",
       "path": "mcp/mcp-security-review/skill.md",
-      "description": "Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks."
+      "description": "Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "mcp/mcp-server-generator",
-      "name": "Mcp Server Generator",
+      "name": "MCP Server Generator",
       "category": "mcp",
       "path": "mcp/mcp-server-generator/skill.md",
-      "description": "Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration."
+      "description": "Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration. Use when working on scaffolding MCP servers, MCP transport setup.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "mcp/mcp-tool-generator",
-      "name": "Mcp Tool Generator",
+      "name": "MCP Tool Generator",
       "category": "mcp",
       "path": "mcp/mcp-tool-generator/skill.md",
-      "description": "Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation."
+      "description": "Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/acceptance-criteria-generator",
       "name": "Acceptance Criteria Generator",
       "category": "product",
       "path": "product/acceptance-criteria-generator/skill.md",
-      "description": "Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios."
+      "description": "Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/epic-generator",
       "name": "Epic Generator",
       "category": "product",
       "path": "product/epic-generator/skill.md",
-      "description": "Decompose a PRD or feature scope into well-structured epics with goals, scope boundaries, and story count estimates."
+      "description": "Decompose a PRD or feature scope into well-structured epics with goals, scope boundaries, and story count estimates. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/feature-prioritization",
       "name": "Feature Prioritization",
       "category": "product",
       "path": "product/feature-prioritization/skill.md",
-      "description": "Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale."
+      "description": "Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/idea-validator",
       "name": "Idea Validator",
       "category": "product",
       "path": "product/idea-validator/skill.md",
-      "description": "Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps."
+      "description": "Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps. Use when working on validating product ideas, assumption mapping, go/no-go decisions.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "product/north-star-metric-advisor",
       "name": "North Star Metric Advisor",
       "category": "product",
       "path": "product/north-star-metric-advisor/skill.md",
-      "description": "Define a single north star metric with input metrics, guardrails, and measurement plan that reflects core user value and ladders to business outcomes."
+      "description": "Define a single north star metric with input metrics, guardrails, and measurement plan that reflects core user value and ladders to business outcomes. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/okr-builder",
-      "name": "Okr Builder",
+      "name": "OKR Builder",
       "category": "product",
       "path": "product/okr-builder/skill.md",
-      "description": "Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping."
+      "description": "Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/persona-generator",
       "name": "Persona Generator",
       "category": "product",
       "path": "product/persona-generator/skill.md",
-      "description": "Create evidence-based user personas focused on behaviors, goals, and pain points — not demographics alone."
+      "description": "Create evidence-based user personas focused on behaviors, goals, and pain points — not demographics alone. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/prd-generator",
-      "name": "Prd Generator",
+      "name": "PRD Generator",
       "category": "product",
       "path": "product/prd-generator/skill.md",
-      "description": "Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics."
+      "description": "Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics. Use when working on PRDs, MVP specs, functional requirements.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "product/problem-statement-builder",
       "name": "Problem Statement Builder",
       "category": "product",
       "path": "product/problem-statement-builder/skill.md",
-      "description": "Transform a raw problem hypothesis into a structured, testable Problem Statement using Jobs-to-be-Done (JTBD) framing."
+      "description": "Transform a raw problem hypothesis into a structured, testable Problem Statement using Jobs-to-be-Done (JTBD) framing. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/product-discovery-assistant",
       "name": "Product Discovery Assistant",
       "category": "product",
       "path": "product/product-discovery-assistant/skill.md",
-      "description": "Facilitate structured product discovery using Opportunity Solution Tree (OST) and Teresa Torres framework: map outcomes, opportunities, solutions, and experiments."
+      "description": "Facilitate structured product discovery using Opportunity Solution Tree (OST) and Teresa Torres framework: map outcomes, opportunities, solutions, and experiments. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/product-vision-builder",
       "name": "Product Vision Builder",
       "category": "product",
       "path": "product/product-vision-builder/skill.md",
-      "description": "Define a product vision that connects user problems, strategic direction, and measurable north star using the Product Vision Canvas."
+      "description": "Define a product vision that connects user problems, strategic direction, and measurable north star using the Product Vision Canvas. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/sprint-planner",
       "name": "Sprint Planner",
       "category": "product",
       "path": "product/sprint-planner/skill.md",
-      "description": "Plan a development sprint: select stories, define sprint goal, estimate capacity, and produce a sprint backlog with risk buffer."
+      "description": "Plan a development sprint: select stories, define sprint goal, estimate capacity, and produce a sprint backlog with risk buffer. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/story-mapping",
       "name": "Story Mapping",
       "category": "product",
       "path": "product/story-mapping/skill.md",
-      "description": "Create a visual story map (Jeff Patton method) organizing user activities, tasks, and stories across a horizontal user journey with vertical priority."
+      "description": "Create a visual story map (Jeff Patton method) organizing user activities, tasks, and stories across a horizontal user journey with vertical priority. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/user-story-generator",
       "name": "User Story Generator",
       "category": "product",
       "path": "product/user-story-generator/skill.md",
-      "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance."
+      "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "product/value-proposition-designer",
       "name": "Value Proposition Designer",
       "category": "product",
       "path": "product/value-proposition-designer/skill.md",
-      "description": "Design a validated Value Proposition Canvas that maps customer jobs, pains, and gains to product pain relievers and gain creators, with an explicit fit assessment."
+      "description": "Design a validated Value Proposition Canvas that maps customer jobs, pains, and gains to product pain relievers and gain creators, with an explicit fit assessment. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "rag/chunking-strategy-advisor",
       "name": "Chunking Strategy Advisor",
       "category": "rag",
       "path": "rag/chunking-strategy-advisor/skill.md",
-      "description": "Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality."
+      "description": "Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "rag/embedding-strategy-advisor",
       "name": "Embedding Strategy Advisor",
       "category": "rag",
       "path": "rag/embedding-strategy-advisor/skill.md",
-      "description": "Select and configure embedding models and indexing strategy for a RAG corpus based on domain, language, and quality requirements."
+      "description": "Select and configure embedding models and indexing strategy for a RAG corpus based on domain, language, and quality requirements. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "rag/hybrid-search-advisor",
       "name": "Hybrid Search Advisor",
       "category": "rag",
       "path": "rag/hybrid-search-advisor/skill.md",
-      "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking."
+      "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "rag/rag-architecture-designer",
-      "name": "Rag Architecture Designer",
+      "name": "RAG Architecture Designer",
       "category": "rag",
       "path": "rag/rag-architecture-designer/skill.md",
-      "description": "Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components."
+      "description": "Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components. Use when working on RAG architecture, retrieval pipelines, vector stores.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "rag/retriever-optimizer",
       "name": "Retriever Optimizer",
       "category": "rag",
       "path": "rag/retriever-optimizer/skill.md",
-      "description": "Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision."
+      "description": "Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "security/ai-governance-advisor",
-      "name": "Ai Governance Advisor",
+      "name": "AI Governance Advisor",
       "category": "security",
       "path": "security/ai-governance-advisor/skill.md",
-      "description": "Define AI governance policies, roles, compliance mappings, and operational controls for responsible LLM deployment aligned with organizational and regulatory requirements."
+      "description": "Define AI governance policies, roles, compliance mappings, and operational controls for responsible LLM deployment aligned with organizational and regulatory requirements. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "security/ai-threat-modeling",
-      "name": "Ai Threat Modeling",
+      "name": "AI Threat Modeling",
       "category": "security",
       "path": "security/ai-threat-modeling/skill.md",
-      "description": "Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use."
+      "description": "Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "security/guardrails-builder",
       "name": "Guardrails Builder",
       "category": "security",
       "path": "security/guardrails-builder/skill.md",
-      "description": "Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers."
+      "description": "Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
+      "apes-version": "1.1",
+      "has-examples": false
     },
     {
       "id": "security/owasp-llm-reviewer",
-      "name": "Owasp Llm Reviewer",
+      "name": "OWASP LLM Reviewer",
       "category": "security",
       "path": "security/owasp-llm-reviewer/skill.md",
-      "description": "Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions."
+      "description": "Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions. Use when working on OWASP LLM Top 10, AI security audits, LLM gap analysis.",
+      "apes-version": "1.1",
+      "has-examples": true
     },
     {
       "id": "security/prompt-injection-detector",
       "name": "Prompt Injection Detector",
       "category": "security",
       "path": "security/prompt-injection-detector/skill.md",
-      "description": "Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline."
+      "description": "Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
+      "apes-version": "1.1",
+      "has-examples": true
     }
   ]
 }

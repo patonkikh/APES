@@ -1,3 +1,12 @@
+---
+name: chunking-strategy-advisor
+description: >
+  Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.
+metadata:
+  apes-version: "1.1"
+  category: rag
+---
+
 # Chunking Strategy Advisor
 
 # Purpose

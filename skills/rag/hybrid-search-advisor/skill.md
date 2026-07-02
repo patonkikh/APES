@@ -1,3 +1,12 @@
+---
+name: hybrid-search-advisor
+description: >
+  Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.
+metadata:
+  apes-version: "1.1"
+  category: rag
+---
+
 # Hybrid Search Advisor
 
 # Purpose

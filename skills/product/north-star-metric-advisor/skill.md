@@ -1,3 +1,12 @@
+---
+name: north-star-metric-advisor
+description: >
+  Define a single north star metric with input metrics, guardrails, and measurement plan that reflects core user value and ladders to business outcomes. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # North Star Metric Advisor
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: ai-solution-architect
+description: >
+  Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # AI Solution Architect
 
 # Purpose

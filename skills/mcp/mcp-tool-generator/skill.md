@@ -1,3 +1,12 @@
+---
+name: mcp-tool-generator
+description: >
+  Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.
+metadata:
+  apes-version: "1.1"
+  category: mcp
+---
+
 # MCP Tool Generator
 
 # Purpose

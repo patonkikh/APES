@@ -1,3 +1,12 @@
+---
+name: epic-generator
+description: >
+  Decompose a PRD or feature scope into well-structured epics with goals, scope boundaries, and story count estimates. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Epic Generator
 
 # Purpose

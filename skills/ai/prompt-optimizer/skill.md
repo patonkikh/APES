@@ -1,3 +1,12 @@
+---
+name: prompt-optimizer
+description: >
+  Optimize prompts for token efficiency, latency, and output quality while preserving task behavior. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # Prompt Optimizer
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: container-diagram-builder
+description: >
+  Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/runnable units with technology choices and communication paths. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Container Diagram Builder
 
 # Purpose

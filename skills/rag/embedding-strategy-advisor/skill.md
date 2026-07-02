@@ -1,3 +1,12 @@
+---
+name: embedding-strategy-advisor
+description: >
+  Select and configure embedding models and indexing strategy for a RAG corpus based on domain, language, and quality requirements. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.
+metadata:
+  apes-version: "1.1"
+  category: rag
+---
+
 # Embedding Strategy Advisor
 
 # Purpose

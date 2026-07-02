@@ -1,3 +1,12 @@
+---
+name: problem-statement-builder
+description: >
+  Transform a raw problem hypothesis into a structured, testable Problem Statement using Jobs-to-be-Done (JTBD) framing. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Problem Statement Builder
 
 # Purpose

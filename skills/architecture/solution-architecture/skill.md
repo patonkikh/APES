@@ -1,3 +1,12 @@
+---
+name: solution-architecture
+description: >
+  Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs. Use when working on solution architecture documents, component models.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Solution Architecture
 
 # Purpose
@@ -5,7 +14,8 @@
 Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs.
 
 **Input:** PRD or requirements, NFRs, constraints (cloud, team, budget, compliance)  
-**Output:** Solution Architecture document with component model, integration view, and technology recommendations
+**Output:** Solution Architecture document with component model, integration view, and technology recommendations  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

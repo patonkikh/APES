@@ -1,3 +1,12 @@
+---
+name: owasp-llm-reviewer
+description: >
+  Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions. Use when working on OWASP LLM Top 10, AI security audits, LLM gap analysis.
+metadata:
+  apes-version: "1.1"
+  category: security
+---
+
 # OWASP LLM Reviewer
 
 # Purpose
@@ -5,7 +14,8 @@
 Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions.
 
 **Input:** Application description, architecture, guardrails design (optional), threat model (optional), deployment context  
-**Output:** OWASP LLM Review Report with per-category assessment, findings, severity, and remediation roadmap
+**Output:** OWASP LLM Review Report with per-category assessment, findings, severity, and remediation roadmap  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

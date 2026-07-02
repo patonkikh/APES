@@ -1,3 +1,12 @@
+---
+name: multi-agent-planner
+description: >
+  Design a multi-agent orchestration architecture: agent roles, communication patterns, handoff protocols, and failure recovery for collaborative AI systems. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # Multi-Agent Planner
 
 # Purpose

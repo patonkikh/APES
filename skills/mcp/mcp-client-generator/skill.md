@@ -1,3 +1,12 @@
+---
+name: mcp-client-generator
+description: >
+  Generate MCP client integration: connection setup, capability discovery, tool invocation patterns, and error handling for agent applications. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.
+metadata:
+  apes-version: "1.1"
+  category: mcp
+---
+
 # MCP Client Generator
 
 # Purpose

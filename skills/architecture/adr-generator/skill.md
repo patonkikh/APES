@@ -1,3 +1,12 @@
+---
+name: adr-generator
+description: >
+  Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences. Use when working on architecture decision records, ADRs, technical decisions.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # ADR Generator
 
 # Purpose

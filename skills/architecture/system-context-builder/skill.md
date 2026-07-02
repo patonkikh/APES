@@ -1,3 +1,12 @@
+---
+name: system-context-builder
+description: >
+  Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # System Context Builder
 
 # Purpose

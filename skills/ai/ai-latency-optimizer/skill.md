@@ -1,3 +1,12 @@
+---
+name: ai-latency-optimizer
+description: >
+  Reduce AI inference latency: pipeline profiling, parallelization, caching, model selection, and streaming strategies to meet SLA targets. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # AI Latency Optimizer
 
 # Purpose

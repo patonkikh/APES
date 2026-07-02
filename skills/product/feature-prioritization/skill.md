@@ -1,3 +1,12 @@
+---
+name: feature-prioritization
+description: >
+  Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Feature Prioritization
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: okr-builder
+description: >
+  Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # OKR Builder
 
 # Purpose

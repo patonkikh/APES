@@ -1,3 +1,12 @@
+---
+name: rag-architecture-designer
+description: >
+  Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components. Use when working on RAG architecture, retrieval pipelines, vector stores.
+metadata:
+  apes-version: "1.1"
+  category: rag
+---
+
 # RAG Architecture Designer
 
 # Purpose
@@ -5,7 +14,8 @@
 Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components.
 
 **Input:** Use case, document types, query patterns, quality/latency requirements  
-**Output:** RAG Architecture document with pipeline diagram, component specs, and technology recommendations
+**Output:** RAG Architecture document with pipeline diagram, component specs, and technology recommendations  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

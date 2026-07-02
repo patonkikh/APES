@@ -1,3 +1,12 @@
+---
+name: context-engineering
+description: >
+  Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # Context Engineering
 
 # Purpose
@@ -5,7 +14,8 @@
 Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow.
 
 **Input:** AI architecture, data sources, prompt template, context window limit  
-**Output:** Context Engineering specification with budget allocation, assembly pipeline, and truncation rules
+**Output:** Context Engineering specification with budget allocation, assembly pipeline, and truncation rules  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

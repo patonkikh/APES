@@ -1,3 +1,12 @@
+---
+name: mcp-security-review
+description: >
+  Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.
+metadata:
+  apes-version: "1.1"
+  category: mcp
+---
+
 # MCP Security Review
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: component-diagram-builder
+description: >
+  Produce a C4 Level 3 (Component) diagram for a selected container, showing internal components, responsibilities, and dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Component Diagram Builder
 
 # Purpose

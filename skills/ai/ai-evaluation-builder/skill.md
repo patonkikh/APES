@@ -1,3 +1,12 @@
+---
+name: ai-evaluation-builder
+description: >
+  Design an offline and online evaluation harness: datasets, metrics, baselines, regression gates, and production monitoring for AI system quality. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # AI Evaluation Builder
 
 # Purpose

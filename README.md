@@ -1,92 +1,306 @@
-# APES — AI Product Engineering Skills Platform
+# APES
+
+
+
+### AI Product Engineering Skills Platform
+
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 [![Skills](https://img.shields.io/badge/Skills-50-brightgreen)](catalog.json)
 
-**Open library of Engineering Playbooks for AI agents** — structured methodologies for real engineering work, not role prompts.
+[![Spec](https://img.shields.io/badge/Agent%20Skills-v1.1-blue)](https://agentskills.io/specification)
 
-Each Skill is a single **`skill.md`** file with workflow, decision rules, validation, anti-patterns, and recommended next skills.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/patonkikh/APES/pulls)
 
-Works with **Cursor**, Claude Code, Cline, Roo Code, GitHub Copilot, OpenAI Agents, Windsurf, LobeHub.
+
+
+**Engineering Playbooks for AI agents** — structured workflows for real professional work, not role prompts.
+
+
+
+**Repository:** [github.com/patonkikh/APES](https://github.com/patonkikh/APES)
+
+
+
+[Browse skills](#browse-by-category) · [Install](#install) · [Catalog](catalog.json)
+
+
 
 ---
 
-## Install a Skill
 
-Copy **only** `skill.md` into your agent's skills folder.
 
-**Cursor (personal skills):**
+## Why APES?
+
+
+
+Most agent "skills" are thin prompts: *"You are a senior engineer…"* with no process, no validation, and no standard output.
+
+
+
+**APES Skills are different.** Each one is an **Engineering Playbook** for a single task:
+
+
+
+| Section | What it gives you |
+
+|---------|-------------------|
+
+| **Workflow** | Step-by-step methodology |
+
+| **Decision Rules** | If X → do Y |
+
+| **Validation** | Checklist before delivery |
+
+| **Anti-patterns** | What to avoid |
+
+| **Output Structure** | Standardized artifact template |
+
+| **Next Skills** | What to run next in the pipeline |
+
+
+
+Compatible with the [Agent Skills open specification](https://agentskills.io/specification) (YAML frontmatter for agent discovery).
+
+
+
+---
+
+
+
+## Install
+
+
+
+### Cursor / Claude Code / Agent Skills runtimes
+
+
+
+Copy the skill folder (or at minimum `skill.md`). Rename `skill.md` → `SKILL.md`:
+
+
 
 ```text
-skills/product/prd-generator/skill.md  →  ~/.cursor/skills/prd-generator/SKILL.md
+
+skills/product/prd-generator/  →  ~/.cursor/skills/prd-generator/
+
+  skill.md                     →  SKILL.md   (keep YAML frontmatter intact)
+
+  examples.md                  →  examples.md (optional, recommended for flagship skills)
+
 ```
 
-Rename to `SKILL.md` if your IDE requires uppercase.
 
-**Claude Code:** copy to `.claude/skills/<name>/`  
-**Cline / Roo:** copy to your configured skills directory  
-**GitHub Copilot:** paste content into project agent instructions
+
+The YAML frontmatter at the top of each file enables **automatic skill discovery**:
+
+
+
+```yaml
 
 ---
 
-## Browse Skills
+name: prd-generator
 
-| Category | Count | Path |
-|----------|------:|------|
-| Product | 15 | [skills/product/](skills/product/) |
-| Architecture | 10 | [skills/architecture/](skills/architecture/) |
-| AI Engineering | 10 | [skills/ai/](skills/ai/) |
-| RAG | 5 | [skills/rag/](skills/rag/) |
-| AI Security | 5 | [skills/security/](skills/security/) |
-| MCP | 5 | [skills/mcp/](skills/mcp/) |
+description: >
 
-Full machine-readable index: [catalog.json](catalog.json)
+  Produces a PRD with FR/NFR IDs and success metrics.
 
-### Example pipelines
+  Use when writing PRDs, MVP specs, or product requirements.
+
+metadata:
+
+  apes-version: "1.1"
+
+  category: product
+
+---
+
+```
+
+
+
+### Other IDEs
+
+
+
+| IDE | Destination |
+
+|-----|-------------|
+
+| Claude Code | `.claude/skills/<name>/` |
+
+| Cline / Roo Code | Your configured skills directory |
+
+| GitHub Copilot | Project agent instructions |
+
+| Windsurf / LobeHub | Skills folder per IDE docs |
+
+
+
+---
+
+
+
+## Skill structure (v1.1)
+
+
 
 ```text
-Product:  idea-validator → prd-generator → story-mapping
-Architecture:  solution-architecture → container-diagram-builder → architecture-review
-AI:  prompt-engineer → prompt-reviewer → context-engineering
-RAG:  rag-architecture-designer → chunking-strategy-advisor → hybrid-search-advisor
+
+skills/<category>/<skill-name>/
+
+├── skill.md       # Required — frontmatter + 8-section playbook
+
+├── README.md      # GitHub browsing notes (not required for install)
+
+└── examples.md    # Optional — worked input/output (progressive disclosure)
+
 ```
 
-Each skill's `README.md` (in the repo only) describes usage — **install only `skill.md`**.
+
+
+**Progressive disclosure:** agents load `name` + `description` at startup (~100 tokens), full `skill.md` on activation, `examples.md` on demand.
+
+
+
+**Flagship skills with examples:** `idea-validator`, `prd-generator`, `solution-architecture`, `prompt-engineer`, `context-engineering`, `rag-architecture-designer`, `prompt-injection-detector`, `owasp-llm-reviewer`, `mcp-server-generator` (9 skills)
+
+
 
 ---
 
-## What is a Skill?
 
-An Engineering Playbook that tells an agent **how** to do one professional task:
 
-- step-by-step workflow
-- decision rules (if X then Y)
-- validation checklist before delivery
-- anti-patterns to avoid
-- standardized output format
-- links to related skills
+## Browse by category
 
-No "You are a senior…" role play. Process, not persona.
+
+
+| Category | Skills | Highlights |
+
+|----------|-------:|------------|
+
+| [**Product**](skills/product/) | 15 | `idea-validator` · `prd-generator` · `story-mapping` |
+
+| [**Architecture**](skills/architecture/) | 10 | `solution-architecture` · `api-designer` · `adr-generator` |
+
+| [**AI Engineering**](skills/ai/) | 10 | `prompt-engineer` · `context-engineering` · `multi-agent-planner` |
+
+| [**RAG**](skills/rag/) | 5 | `rag-architecture-designer` · `hybrid-search-advisor` |
+
+| [**AI Security**](skills/security/) | 5 | `owasp-llm-reviewer` · `guardrails-builder` |
+
+| [**MCP**](skills/mcp/) | 5 | `mcp-server-generator` · `mcp-tool-generator` |
+
+
+
+**Full index:** [catalog.json](catalog.json) (machine-readable, 50 skills, v1.1)
+
+
 
 ---
 
-## Repository layout
+
+
+## Example pipelines
+
+
+
+Skills chain together via the **Next Skills** section in each playbook:
+
+
 
 ```text
-skills/
-  product/
-  architecture/
-  ai/
-  rag/
-  security/
-  mcp/
-catalog.json
-LICENSE
-README.md
+
+Discovery     idea-validator → problem-statement-builder → persona-generator
+
+Strategy      product-vision-builder → feature-prioritization → prd-generator
+
+Delivery      epic-generator → user-story-generator → acceptance-criteria-generator
+
+Architecture  solution-architecture → system-context-builder → architecture-review
+
+AI            ai-solution-architect → prompt-engineer → prompt-reviewer → context-engineering
+
+RAG           rag-architecture-designer → chunking-strategy-advisor → retriever-optimizer
+
+Security      ai-threat-modeling → prompt-injection-detector → owasp-llm-reviewer
+
+MCP           mcp-server-generator → mcp-tool-generator → mcp-security-review
+
 ```
 
+
+
 ---
+
+
+
+## Repository structure
+
+
+
+```text
+
+APES/
+
+├── skills/
+
+│   ├── product/          # Discovery, strategy, delivery
+
+│   ├── architecture/     # C4, ADR, API design
+
+│   ├── ai/               # Prompts, agents, evaluation
+
+│   ├── rag/              # Retrieval pipelines
+
+│   ├── security/         # LLM security & governance
+
+│   └── mcp/              # Model Context Protocol
+
+├── catalog.json          # Skill index (v1.1)
+
+├── LICENSE
+
+└── README.md
+
+```
+
+
+
+---
+
+
+
+## Compatibility
+
+
+
+Tested workflow with: **Cursor**, Claude Code, Cline, Roo Code, GitHub Copilot, OpenAI Agents, Windsurf, LobeHub.
+
+
+
+| Layer | Standard |
+
+|-------|----------|
+
+| Discovery metadata | [Agent Skills spec](https://agentskills.io/specification) — `name` + `description` |
+
+| Playbook body | APES 8-section Engineering Playbook |
+
+| File naming | `skill.md` in repo → `SKILL.md` on install |
+
+
+
+---
+
+
 
 ## License
 
+
+
 [MIT](LICENSE) © 2026 APES Contributors
+

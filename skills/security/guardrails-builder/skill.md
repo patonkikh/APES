@@ -1,3 +1,12 @@
+---
+name: guardrails-builder
+description: >
+  Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.
+metadata:
+  apes-version: "1.1"
+  category: security
+---
+
 # Guardrails Builder
 
 # Purpose

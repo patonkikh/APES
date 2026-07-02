@@ -1,3 +1,12 @@
+---
+name: ai-workflow-builder
+description: >
+  Build an executable AI workflow pipeline: stage definitions, data flow, branching logic, retries, and integration points for production deployment. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # AI Workflow Builder
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: story-mapping
+description: >
+  Create a visual story map (Jeff Patton method) organizing user activities, tasks, and stories across a horizontal user journey with vertical priority. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Story Mapping
 
 # Purpose

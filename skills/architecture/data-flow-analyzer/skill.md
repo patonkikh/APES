@@ -1,3 +1,12 @@
+---
+name: data-flow-analyzer
+description: >
+  Analyze and document data flows across the system: data origins, transformations, storage, retention, and compliance boundaries. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.
+metadata:
+  apes-version: "1.1"
+  category: architecture
+---
+
 # Data Flow Analyzer
 
 # Purpose

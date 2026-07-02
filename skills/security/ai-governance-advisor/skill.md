@@ -1,3 +1,12 @@
+---
+name: ai-governance-advisor
+description: >
+  Define AI governance policies, roles, compliance mappings, and operational controls for responsible LLM deployment aligned with organizational and regulatory requirements. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.
+metadata:
+  apes-version: "1.1"
+  category: security
+---
+
 # AI Governance Advisor
 
 # Purpose

@@ -1,3 +1,12 @@
+---
+name: mcp-best-practices
+description: >
+  Document and apply MCP implementation best practices: server design, client integration, testing, versioning, observability, and operational readiness for production MCP deployments. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.
+metadata:
+  apes-version: "1.1"
+  category: mcp
+---
+
 # MCP Best Practices
 
 # Purpose

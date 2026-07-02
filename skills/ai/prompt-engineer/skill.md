@@ -1,3 +1,12 @@
+---
+name: prompt-engineer
+description: >
+  Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts. Use when working on designing prompts, system instructions, few-shot templates.
+metadata:
+  apes-version: "1.1"
+  category: ai
+---
+
 # Prompt Engineer
 
 # Purpose
@@ -5,7 +14,8 @@
 Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts.
 
 **Input:** Task definition, AI architecture (optional), example inputs/outputs (optional), constraints  
-**Output:** Prompt specification with template, variables, examples, and test cases
+**Output:** Prompt specification with template, variables, examples, and test cases  
+**Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
 

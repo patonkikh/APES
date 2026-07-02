@@ -1,3 +1,12 @@
+---
+name: persona-generator
+description: >
+  Create evidence-based user personas focused on behaviors, goals, and pain points — not demographics alone. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Persona Generator
 
 # Purpose

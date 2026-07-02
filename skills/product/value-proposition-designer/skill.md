@@ -1,3 +1,12 @@
+---
+name: value-proposition-designer
+description: >
+  Design a validated Value Proposition Canvas that maps customer jobs, pains, and gains to product pain relievers and gain creators, with an explicit fit assessment. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Value Proposition Designer
 
 # Purpose

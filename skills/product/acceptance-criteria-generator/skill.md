@@ -1,3 +1,12 @@
+---
+name: acceptance-criteria-generator
+description: >
+  Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.
+metadata:
+  apes-version: "1.1"
+  category: product
+---
+
 # Acceptance Criteria Generator
 
 # Purpose
