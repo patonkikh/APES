@@ -15,6 +15,7 @@ Design a solution architecture from PRD and constraints: identify components, in
 
 **Input:** PRD or requirements, NFRs, constraints (cloud, team, budget, compliance)  
 **Output:** Solution Architecture document with component model, integration view, and technology recommendations  
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---

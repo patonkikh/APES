@@ -15,6 +15,7 @@ Review an AI/LLM application against the OWASP Top 10 for LLM Applications, prod
 
 **Input:** Application description, architecture, guardrails design (optional), threat model (optional), deployment context  
 **Output:** OWASP LLM Review Report with per-category assessment, findings, severity, and remediation roadmap  
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---

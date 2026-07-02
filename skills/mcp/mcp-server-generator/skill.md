@@ -15,6 +15,7 @@ Generate a Model Context Protocol (MCP) server structure: transport layer, capab
 
 **Input:** Integration target (API, database, service), required capabilities (tools/resources/prompts), runtime preference (optional), security constraints  
 **Output:** MCP Server Scaffold Specification with directory layout, capability manifest, and implementation checklist  
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---

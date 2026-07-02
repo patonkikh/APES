@@ -77,6 +77,7 @@ metadata:
 skills/<category>/<skill-name>/
 ├── skill.md       # Required — frontmatter + 8-section playbook
 ├── examples.md    # Worked input/output (all 50 skills)
+├── references.md  # Domain cheat sheets (key skills)
 └── README.md      # GitHub browsing notes
 ```
 
@@ -142,7 +143,8 @@ Tested workflow with: **Cursor**, Claude Code, Cline, Roo Code, GitHub Copilot, 
 |-------|----------|
 | Discovery metadata | [Agent Skills spec](https://agentskills.io/specification) — `name` + `description` |
 | Playbook body | APES 8-section Engineering Playbook |
-| Examples | `examples.md` per skill (progressive disclosure) |
+| Examples | `examples.md` per skill (all 50) |
+| References | `references.md` on key domain skills (OWASP, C4, MCP, RAG, prompts) |
 | File naming | `skill.md` in repo → `SKILL.md` on install |
 
 ---

@@ -15,6 +15,7 @@ Create Architecture Decision Records (ADRs) for significant technical decisions 
 
 **Input:** Decision topic, architectural context, options considered (optional)  
 **Output:** ADR document ready for `docs/adr/` with status, context, decision, and consequences
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---

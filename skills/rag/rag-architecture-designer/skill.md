@@ -15,6 +15,7 @@ Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, 
 
 **Input:** Use case, document types, query patterns, quality/latency requirements  
 **Output:** RAG Architecture document with pipeline diagram, component specs, and technology recommendations  
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---

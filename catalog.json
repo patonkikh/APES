@@ -8,7 +8,8 @@
       "path": "ai/ai-cost-optimizer/skill.md",
       "description": "Optimize LLM inference costs: token budget allocation, model routing, caching strategy, and batching without breaching quality thresholds. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/ai-evaluation-builder",
@@ -17,7 +18,8 @@
       "path": "ai/ai-evaluation-builder/skill.md",
       "description": "Design an offline and online evaluation harness: datasets, metrics, baselines, regression gates, and production monitoring for AI system quality. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/ai-latency-optimizer",
@@ -26,7 +28,8 @@
       "path": "ai/ai-latency-optimizer/skill.md",
       "description": "Reduce AI inference latency: pipeline profiling, parallelization, caching, model selection, and streaming strategies to meet SLA targets. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/ai-solution-architect",
@@ -35,7 +38,8 @@
       "path": "ai/ai-solution-architect/skill.md",
       "description": "Design an AI system architecture: model selection, inference pipeline, context management, evaluation strategy, and cost/latency trade-offs. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/ai-workflow-builder",
@@ -44,7 +48,8 @@
       "path": "ai/ai-workflow-builder/skill.md",
       "description": "Build an executable AI workflow pipeline: stage definitions, data flow, branching logic, retries, and integration points for production deployment. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/context-engineering",
@@ -53,7 +58,8 @@
       "path": "ai/context-engineering/skill.md",
       "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/multi-agent-planner",
@@ -62,7 +68,8 @@
       "path": "ai/multi-agent-planner/skill.md",
       "description": "Design a multi-agent orchestration architecture: agent roles, communication patterns, handoff protocols, and failure recovery for collaborative AI systems. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/prompt-engineer",
@@ -71,7 +78,8 @@
       "path": "ai/prompt-engineer/skill.md",
       "description": "Design production-grade prompts: system instructions, task templates, variable slots, few-shot examples, and output format contracts. Use when working on designing prompts, system instructions, few-shot templates.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "ai/prompt-optimizer",
@@ -80,7 +88,8 @@
       "path": "ai/prompt-optimizer/skill.md",
       "description": "Optimize prompts for token efficiency, latency, and output quality while preserving task behavior. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "ai/prompt-reviewer",
@@ -89,7 +98,8 @@
       "path": "ai/prompt-reviewer/skill.md",
       "description": "Review prompts against quality, safety, and reliability criteria; produce findings with severity and fix recommendations. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/adr-generator",
@@ -98,7 +108,8 @@
       "path": "architecture/adr-generator/skill.md",
       "description": "Create Architecture Decision Records (ADRs) for significant technical decisions using the Michael Nygard format with structured context, options, and consequences. Use when working on architecture decision records, ADRs, technical decisions.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "architecture/api-designer",
@@ -107,7 +118,8 @@
       "path": "architecture/api-designer/skill.md",
       "description": "Design REST or event-based APIs from container architecture: resources, operations, schemas, error model, and versioning strategy. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/architecture-review",
@@ -116,7 +128,8 @@
       "path": "architecture/architecture-review/skill.md",
       "description": "Conduct a structured architecture review against requirements, quality attributes, and best practices; produce findings with severity and remediation recommendations. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/component-diagram-builder",
@@ -125,7 +138,8 @@
       "path": "architecture/component-diagram-builder/skill.md",
       "description": "Produce a C4 Level 3 (Component) diagram for a selected container, showing internal components, responsibilities, and dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/container-diagram-builder",
@@ -134,7 +148,8 @@
       "path": "architecture/container-diagram-builder/skill.md",
       "description": "Produce a C4 Level 2 (Container) diagram decomposing the system into deployable/runnable units with technology choices and communication paths. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/data-flow-analyzer",
@@ -143,7 +158,8 @@
       "path": "architecture/data-flow-analyzer/skill.md",
       "description": "Analyze and document data flows across the system: data origins, transformations, storage, retention, and compliance boundaries. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/integration-planner",
@@ -152,7 +168,8 @@
       "path": "architecture/integration-planner/skill.md",
       "description": "Plan integrations between system containers and external systems: patterns, contracts, sequencing, failure handling, and monitoring. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/scalability-advisor",
@@ -161,7 +178,8 @@
       "path": "architecture/scalability-advisor/skill.md",
       "description": "Assess system scalability: identify bottlenecks, recommend scaling strategies per container, and define capacity planning guidelines. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "architecture/solution-architecture",
@@ -170,7 +188,8 @@
       "path": "architecture/solution-architecture/skill.md",
       "description": "Design a solution architecture from PRD and constraints: identify components, integration patterns, technology options, and quality attribute trade-offs. Use when working on solution architecture documents, component models.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "architecture/system-context-builder",
@@ -179,7 +198,8 @@
       "path": "architecture/system-context-builder/skill.md",
       "description": "Produce a C4 Level 1 (System Context) diagram and description showing the system, its users, and external dependencies. Use when working on solution architecture, C4 diagrams, APIs, ADRs, or system design.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "mcp/mcp-best-practices",
@@ -188,7 +208,8 @@
       "path": "mcp/mcp-best-practices/skill.md",
       "description": "Document and apply MCP implementation best practices: server design, client integration, testing, versioning, observability, and operational readiness for production MCP deployments. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "mcp/mcp-client-generator",
@@ -197,7 +218,8 @@
       "path": "mcp/mcp-client-generator/skill.md",
       "description": "Generate MCP client integration: connection setup, capability discovery, tool invocation patterns, and error handling for agent applications. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "mcp/mcp-security-review",
@@ -206,7 +228,8 @@
       "path": "mcp/mcp-security-review/skill.md",
       "description": "Conduct a security review of MCP server and client implementations: threat modeling, auth validation, tool risk assessment, and remediation plan aligned with OWASP LLM and MCP-specific risks. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "mcp/mcp-server-generator",
@@ -215,7 +238,8 @@
       "path": "mcp/mcp-server-generator/skill.md",
       "description": "Generate a Model Context Protocol (MCP) server structure: transport layer, capability declarations, project layout, and bootstrap configuration for a new MCP integration. Use when working on scaffolding MCP servers, MCP transport setup.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "mcp/mcp-tool-generator",
@@ -224,7 +248,8 @@
       "path": "mcp/mcp-tool-generator/skill.md",
       "description": "Design MCP tools: input/output schemas, handler logic outline, idempotency rules, and agent-facing descriptions for reliable tool invocation. Use when working on MCP servers, MCP tools, MCP clients, or Model Context Protocol integrations.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/acceptance-criteria-generator",
@@ -233,7 +258,8 @@
       "path": "product/acceptance-criteria-generator/skill.md",
       "description": "Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/epic-generator",
@@ -242,7 +268,8 @@
       "path": "product/epic-generator/skill.md",
       "description": "Decompose a PRD or feature scope into well-structured epics with goals, scope boundaries, and story count estimates. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/feature-prioritization",
@@ -251,7 +278,8 @@
       "path": "product/feature-prioritization/skill.md",
       "description": "Prioritize a feature backlog using a structured scoring framework (RICE by default) and produce a ranked list with rationale. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/idea-validator",
@@ -260,7 +288,8 @@
       "path": "product/idea-validator/skill.md",
       "description": "Validate a product idea by mapping assumptions, assessing desirability/feasibility/viability signals, and producing a go/no-go/pivot recommendation with evidence gaps. Use when working on validating product ideas, assumption mapping, go/no-go decisions.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/north-star-metric-advisor",
@@ -269,7 +298,8 @@
       "path": "product/north-star-metric-advisor/skill.md",
       "description": "Define a single north star metric with input metrics, guardrails, and measurement plan that reflects core user value and ladders to business outcomes. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/okr-builder",
@@ -278,7 +308,8 @@
       "path": "product/okr-builder/skill.md",
       "description": "Create aligned Objectives and Key Results (OKRs) for product teams with measurable key results and initiative mapping. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/persona-generator",
@@ -287,7 +318,8 @@
       "path": "product/persona-generator/skill.md",
       "description": "Create evidence-based user personas focused on behaviors, goals, and pain points — not demographics alone. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/prd-generator",
@@ -296,7 +328,8 @@
       "path": "product/prd-generator/skill.md",
       "description": "Produce a Product Requirements Document (PRD) for a defined feature or MVP scope with goals, requirements, and success metrics. Use when working on PRDs, MVP specs, functional requirements.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/problem-statement-builder",
@@ -305,7 +338,8 @@
       "path": "product/problem-statement-builder/skill.md",
       "description": "Transform a raw problem hypothesis into a structured, testable Problem Statement using Jobs-to-be-Done (JTBD) framing. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/product-discovery-assistant",
@@ -314,7 +348,8 @@
       "path": "product/product-discovery-assistant/skill.md",
       "description": "Facilitate structured product discovery using Opportunity Solution Tree (OST) and Teresa Torres framework: map outcomes, opportunities, solutions, and experiments. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/product-vision-builder",
@@ -323,7 +358,8 @@
       "path": "product/product-vision-builder/skill.md",
       "description": "Define a product vision that connects user problems, strategic direction, and measurable north star using the Product Vision Canvas. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/sprint-planner",
@@ -332,7 +368,8 @@
       "path": "product/sprint-planner/skill.md",
       "description": "Plan a development sprint: select stories, define sprint goal, estimate capacity, and produce a sprint backlog with risk buffer. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/story-mapping",
@@ -341,7 +378,8 @@
       "path": "product/story-mapping/skill.md",
       "description": "Create a visual story map (Jeff Patton method) organizing user activities, tasks, and stories across a horizontal user journey with vertical priority. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/user-story-generator",
@@ -350,7 +388,8 @@
       "path": "product/user-story-generator/skill.md",
       "description": "Generate INVEST-compliant user stories from epics or requirements with clear value statements and story point guidance. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "product/value-proposition-designer",
@@ -359,7 +398,8 @@
       "path": "product/value-proposition-designer/skill.md",
       "description": "Design a validated Value Proposition Canvas that maps customer jobs, pains, and gains to product pain relievers and gain creators, with an explicit fit assessment. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "rag/chunking-strategy-advisor",
@@ -368,7 +408,8 @@
       "path": "rag/chunking-strategy-advisor/skill.md",
       "description": "Recommend document chunking strategy: chunk size, overlap, boundaries, and metadata preservation for optimal retrieval quality. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "rag/embedding-strategy-advisor",
@@ -377,7 +418,8 @@
       "path": "rag/embedding-strategy-advisor/skill.md",
       "description": "Select and configure embedding models and indexing strategy for a RAG corpus based on domain, language, and quality requirements. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "rag/hybrid-search-advisor",
@@ -386,7 +428,8 @@
       "path": "rag/hybrid-search-advisor/skill.md",
       "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "rag/rag-architecture-designer",
@@ -395,7 +438,8 @@
       "path": "rag/rag-architecture-designer/skill.md",
       "description": "Design a Retrieval-Augmented Generation (RAG) pipeline architecture: ingestion, indexing, retrieval, generation, and evaluation components. Use when working on RAG architecture, retrieval pipelines, vector stores.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "rag/retriever-optimizer",
@@ -404,7 +448,8 @@
       "path": "rag/retriever-optimizer/skill.md",
       "description": "Optimize RAG retrieval quality: tune top-k, reranking, query preprocessing, and filtering to maximize recall and precision. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "security/ai-governance-advisor",
@@ -413,7 +458,8 @@
       "path": "security/ai-governance-advisor/skill.md",
       "description": "Define AI governance policies, roles, compliance mappings, and operational controls for responsible LLM deployment aligned with organizational and regulatory requirements. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "security/ai-threat-modeling",
@@ -422,7 +468,8 @@
       "path": "security/ai-threat-modeling/skill.md",
       "description": "Produce a threat model for AI/LLM applications using STRIDE and LINDDUN adapted for model inference, RAG, agents, and tool use. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "security/guardrails-builder",
@@ -431,7 +478,8 @@
       "path": "security/guardrails-builder/skill.md",
       "description": "Design layered input and output guardrails for LLM applications: filters, classifiers, policy rules, tool gates, and human-in-the-loop triggers. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     },
     {
       "id": "security/owasp-llm-reviewer",
@@ -440,7 +488,8 @@
       "path": "security/owasp-llm-reviewer/skill.md",
       "description": "Review an AI/LLM application against the OWASP Top 10 for LLM Applications, produce gap analysis, and prioritize remediation actions. Use when working on OWASP LLM Top 10, AI security audits, LLM gap analysis.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": true
     },
     {
       "id": "security/prompt-injection-detector",
@@ -449,7 +498,8 @@
       "path": "security/prompt-injection-detector/skill.md",
       "description": "Detect prompt injection, jailbreak, and adversarial input patterns in user inputs, system prompts, and retrieved context before they reach the LLM pipeline. Use when working on LLM security, OWASP reviews, threat modeling, guardrails, or prompt injection.",
       "apes-version": "1.1",
-      "has-examples": true
+      "has-examples": true,
+      "has-references": false
     }
   ]
 }

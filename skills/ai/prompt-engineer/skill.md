@@ -15,6 +15,7 @@ Design production-grade prompts: system instructions, task templates, variable s
 
 **Input:** Task definition, AI architecture (optional), example inputs/outputs (optional), constraints  
 **Output:** Prompt specification with template, variables, examples, and test cases  
+**References:** See [references.md](references.md) for domain cheat sheets.
 **Examples:** See [examples.md](examples.md) for worked input/output.
 
 ---
