@@ -273,17 +273,39 @@ flowchart LR
 
 ```text
 APES/
-├── assets/           # Banner & visuals
+├── assets/              # Banner & visuals
+├── CONTRIBUTING.md      # How to contribute
+├── docs/
+│   ├── CREATE_SKILL.md  # Step-by-step authoring guide
+│   └── SKILL_STANDARD.md
+├── scripts/
+│   └── validate_skills.py
 ├── skills/
-│   ├── product/          15 skills
-│   ├── architecture/     10 skills
-│   ├── ai/                 10 skills
-│   ├── rag/                 5 skills
-│   ├── security/            5 skills
-│   └── mcp/                 5 skills
+│   ├── _template/       # Copy to start a new skill
+│   ├── product/         15 skills
+│   ├── architecture/    10 skills
+│   ├── ai/              10 skills
+│   ├── rag/              5 skills
+│   ├── security/         5 skills
+│   └── mcp/              5 skills
 ├── catalog.json
 ├── LICENSE
 └── README.md
+```
+
+---
+
+## Contributing
+
+Want to add a skill? Start here:
+
+1. [CONTRIBUTING.md](CONTRIBUTING.md) — PR workflow and checklist  
+2. [How to create a new Skill](docs/CREATE_SKILL.md) — step-by-step guide  
+3. [Skill Template](skills/_template/skill.md) — copy-paste starting point  
+4. [Skill Standard](docs/SKILL_STANDARD.md) — format rules (APES v1.1)
+
+```bash
+python scripts/validate_skills.py   # verify before opening a PR
 ```
 
 ---

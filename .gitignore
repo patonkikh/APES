@@ -110,10 +110,16 @@ ROADMAP.md
 TODO.md
 CHANGELOG.md
 task.md
-CONTRIBUTING.md
 
-docs/
-scripts/
+# Internal docs (public: CREATE_SKILL.md, SKILL_STANDARD.md)
+docs/adr/
+docs/ARCHITECTURE.md
+docs/GITHUB_SETUP.md
+docs/PUBLISHING.md
+docs/SKILL_CHAIN*.md
+
+# Maintainer scripts (public: validate_skills.py)
+scripts/generate_catalog.py
+scripts/migrate_v11_frontmatter.py
+
 .github/
-
-skills/_template/
