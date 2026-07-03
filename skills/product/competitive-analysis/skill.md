@@ -178,6 +178,7 @@ Run Validation checklist.
 | Outcome | Recommended Skill |
 |---------|-------------------|
 | Refine positioning | `product/value-proposition-designer` |
+| Plan market launch | `growth/go-to-market-planner` |
 | Validate idea assumptions | `product/idea-validator` |
 | Prioritize response features | `product/feature-prioritization` |
 | Write PRD with competitive context | `product/prd-generator` |

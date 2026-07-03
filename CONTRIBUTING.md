@@ -60,7 +60,7 @@ Open a Pull Request on GitHub. Maintainers will review and update `catalog.json`
 | 8 sections | Purpose → Workflow → Decision Rules → Validation → Anti-patterns → Best Practices → Output Structure → Next Skills |
 | Frontmatter | `name`, `description`, `metadata.apes-version`, `metadata.category` |
 | Naming | Directory and `name` in kebab-case: `my-skill-name` |
-| Category | `product` · `architecture` · `ai` · `rag` · `security` · `mcp` |
+| Category | `product` · `architecture` · `ai` · `rag` · `security` · `mcp` · `data` · `devops` · `growth` |
 
 Full details: [docs/SKILL_STANDARD.md](docs/SKILL_STANDARD.md)
 

@@ -32,6 +32,9 @@ Ask: *Can I describe the output in one sentence?*
 | `rag` | Chunking, retrieval, embeddings |
 | `security` | OWASP, threat modeling, guardrails |
 | `mcp` | MCP servers, tools, clients |
+| `data` | Pipelines, metrics, labeling, data quality |
+| `devops` | CI/CD, deploy, runbooks, operations |
+| `growth` | GTM, pricing, experiments, monetization |
 
 **Name:** kebab-case, matches folder name.
 

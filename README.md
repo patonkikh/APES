@@ -144,6 +144,7 @@ pie showData
     "Architecture (11)" : 11
     "AI Engineering (12)" : 12
     "RAG (6)" : 6
+    "Growth (3)" : 3
     "Security (5)" : 5
     "MCP (5)" : 5
 ```
@@ -193,6 +194,16 @@ Prompts · Agents · Memory · HITL
 Ingestion · Retrieval pipelines
 
 `knowledge-ingestion-planner` · `rag-architecture-designer` · `hybrid-search-advisor`
+
+
+
+### Growth · 3
+
+`[skills/growth/](skills/growth/)`
+
+GTM · Pricing · Experiments
+
+`go-to-market-planner` · `pricing-strategy-advisor` · `experiment-designer`
 
 
 
@@ -282,6 +293,7 @@ APES/
 │   └── validate_skills.py
 ├── skills/
 │   ├── _template/       # Copy to start a new skill
+│   ├── growth/           3 skills
 │   ├── product/         17 skills
 │   ├── architecture/    11 skills
 │   ├── ai/              12 skills

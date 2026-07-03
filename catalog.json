@@ -232,6 +232,36 @@
       "has-references": false
     },
     {
+      "id": "growth/experiment-designer",
+      "name": "Experiment Designer",
+      "category": "growth",
+      "path": "growth/experiment-designer/skill.md",
+      "description": "Design a product or growth experiment: hypothesis, variants, primary metric, sample size, runtime, and guardrails. Use when planning A/B tests, feature rollouts, pricing tests, or validating GTM assumptions.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "growth/go-to-market-planner",
+      "name": "Go To Market Planner",
+      "category": "growth",
+      "path": "growth/go-to-market-planner/skill.md",
+      "description": "Produce a go-to-market plan: target segments, channels, launch phases, messaging, and success metrics. Use when launching a product, entering a new market, or planning a GTM strategy after positioning is defined.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "growth/pricing-strategy-advisor",
+      "name": "Pricing Strategy Advisor",
+      "category": "growth",
+      "path": "growth/pricing-strategy-advisor/skill.md",
+      "description": "Recommend a pricing model and price points for AI/SaaS products: usage, seat, tier, and hybrid structures with unit economics. Use when pricing a new product, repricing, or designing AI consumption-based billing.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
       "id": "mcp/mcp-best-practices",
       "name": "MCP Best Practices",
       "category": "mcp",

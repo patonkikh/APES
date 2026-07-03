@@ -57,7 +57,7 @@ metadata:
 | `name` | Yes | kebab-case; must match parent directory name |
 | `description` | Yes | WHAT + WHEN; third person; ≤1024 chars; include trigger terms |
 | `metadata.apes-version` | Yes | `"1.1"` |
-| `metadata.category` | Yes | `product` \| `architecture` \| `ai` \| `rag` \| `security` \| `mcp` |
+| `metadata.category` | Yes | `product` \| `architecture` \| `ai` \| `rag` \| `security` \| `mcp` \| `data` \| `devops` \| `growth` |
 | `license` | No | Defaults to MIT at repo level |
 | `compatibility` | No | Use when skill needs specific tools or network |
 
@@ -197,6 +197,9 @@ Skill Review (v1.1):
 | RAG | Chunking strategies, RAGAS, hybrid search |
 | AI Security | OWASP LLM Top 10, threat modeling |
 | MCP | Agent Skills spec, JSON Schema tool inputs |
+| Data & ML | dbt metrics, data quality dimensions, labeling QA |
+| DevOps | CI/CD stages, canary deploy, runbooks, SRE |
+| Growth | GTM canvas, pricing tiers, experiment design |
 
 ---
 
