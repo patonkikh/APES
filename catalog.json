@@ -2,6 +2,16 @@
   "version": "1.2",
   "skills": [
     {
+      "id": "ai/agent-memory-designer",
+      "name": "Agent Memory Designer",
+      "category": "ai",
+      "path": "ai/agent-memory-designer/skill.md",
+      "description": "Design agent memory architecture: short-term context, long-term vector store, episodic logs, and retention policies with privacy controls. Use when building persistent agents, chatbots with memory, or multi-session AI assistants.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
       "id": "ai/ai-cost-optimizer",
       "name": "AI Cost Optimizer",
       "category": "ai",
@@ -57,6 +67,16 @@
       "category": "ai",
       "path": "ai/context-engineering/skill.md",
       "description": "Design context assembly strategy: what information enters the model context, in what order, with what budget, and how to handle overflow. Use when working on prompt engineering, AI workflows, agents, context design, or LLM optimization.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "ai/human-in-the-loop-designer",
+      "name": "Human In The Loop Designer",
+      "category": "ai",
+      "path": "ai/human-in-the-loop-designer/skill.md",
+      "description": "Design human-in-the-loop (HITL) workflows for AI systems: review queues, escalation triggers, feedback loops, and SLA-backed approval gates. Use when deploying high-risk AI, production agents, or regulated decision support.",
       "apes-version": "1.1",
       "has-examples": true,
       "has-references": false
@@ -172,6 +192,16 @@
       "has-references": false
     },
     {
+      "id": "architecture/observability-planner",
+      "name": "Observability Planner",
+      "category": "architecture",
+      "path": "architecture/observability-planner/skill.md",
+      "description": "Design observability for AI and distributed systems: traces, metrics, logs, dashboards, and alerting aligned to SLOs. Use when planning monitoring, debugging LLM pipelines, or production readiness reviews.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
       "id": "architecture/scalability-advisor",
       "name": "Scalability Advisor",
       "category": "architecture",
@@ -257,6 +287,26 @@
       "category": "product",
       "path": "product/acceptance-criteria-generator/skill.md",
       "description": "Write testable acceptance criteria for user stories using Given-When-Then (BDD) format with edge cases and negative scenarios. Use when working on product discovery, PRDs, user stories, OKRs, or backlog planning.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "product/analytics-instrumentation-planner",
+      "name": "Analytics Instrumentation Planner",
+      "category": "product",
+      "path": "product/analytics-instrumentation-planner/skill.md",
+      "description": "Design product analytics instrumentation: event taxonomy, properties schema, funnel definitions, and dashboard specs for AI-powered products. Use when defining metrics, tracking plans, growth experiments, or product analytics setup.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "product/competitive-analysis",
+      "name": "Competitive Analysis",
+      "category": "product",
+      "path": "product/competitive-analysis/skill.md",
+      "description": "Produce a structured competitive analysis: competitor map, feature matrix, positioning gaps, and strategic recommendations. Use when evaluating markets, planning differentiation, or preparing investor/product strategy decks.",
       "apes-version": "1.1",
       "has-examples": true,
       "has-references": false
@@ -427,6 +477,16 @@
       "category": "rag",
       "path": "rag/hybrid-search-advisor/skill.md",
       "description": "Design hybrid search strategy combining dense vector retrieval and sparse keyword search (BM25) with fusion ranking. Use when working on RAG pipelines, chunking, embeddings, retrieval, or hybrid search.",
+      "apes-version": "1.1",
+      "has-examples": true,
+      "has-references": false
+    },
+    {
+      "id": "rag/knowledge-ingestion-planner",
+      "name": "Knowledge Ingestion Planner",
+      "category": "rag",
+      "path": "rag/knowledge-ingestion-planner/skill.md",
+      "description": "Design a knowledge ingestion pipeline for RAG: source connectors, parsing, chunking handoff, metadata enrichment, and incremental sync. Use when onboarding documents, building knowledge bases, or scaling RAG corpora.",
       "apes-version": "1.1",
       "has-examples": true,
       "has-references": false

@@ -140,10 +140,10 @@ flowchart TB
 ```mermaid
 pie showData
     title Skills by Category
-    "Product (15)" : 15
-    "Architecture (10)" : 10
-    "AI Engineering (10)" : 10
-    "RAG (5)" : 5
+    "Product (17)" : 17
+    "Architecture (11)" : 11
+    "AI Engineering (12)" : 12
+    "RAG (6)" : 6
     "Security (5)" : 5
     "MCP (5)" : 5
 ```
@@ -156,43 +156,43 @@ pie showData
 |     |
 
 
-### Product · 15
+### Product · 17
 
 `[skills/product/](skills/product/)`
 
-Discovery → Strategy → Delivery
+Discovery → Strategy → Delivery → Analytics
 
-`idea-validator` · `prd-generator` · `okr-builder` · `user-story-generator`
+`idea-validator` · `competitive-analysis` · `prd-generator` · `analytics-instrumentation-planner`
 
 
 
-### Architecture · 10
+### Architecture · 11
 
 `[skills/architecture/](skills/architecture/)`
 
-C4 · ADR · API design
+C4 · ADR · API design · Observability
 
-`solution-architecture` · `adr-generator` · `api-designer`
+`solution-architecture` · `observability-planner` · `adr-generator`
 
 
 
-### AI · 10
+### AI · 12
 
 `[skills/ai/](skills/ai/)`
 
-Prompts · Agents · Eval
+Prompts · Agents · Memory · HITL
 
-`prompt-engineer` · `multi-agent-planner` · `context-engineering`
+`prompt-engineer` · `agent-memory-designer` · `human-in-the-loop-designer` · `multi-agent-planner`
 
 
 
-### RAG · 5
+### RAG · 6
 
 `[skills/rag/](skills/rag/)`
 
-Retrieval pipelines
+Ingestion · Retrieval pipelines
 
-`rag-architecture-designer` · `hybrid-search-advisor`
+`knowledge-ingestion-planner` · `rag-architecture-designer` · `hybrid-search-advisor`
 
 
 
@@ -282,10 +282,10 @@ APES/
 │   └── validate_skills.py
 ├── skills/
 │   ├── _template/       # Copy to start a new skill
-│   ├── product/         15 skills
-│   ├── architecture/    10 skills
-│   ├── ai/              10 skills
-│   ├── rag/              5 skills
+│   ├── product/         17 skills
+│   ├── architecture/    11 skills
+│   ├── ai/              12 skills
+│   ├── rag/              6 skills
 │   ├── security/         5 skills
 │   └── mcp/              5 skills
 ├── catalog.json
