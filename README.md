@@ -1,26 +1,12 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/patonkikh/APES/main/assets/banner.jpg" alt="APES — AI Product Engineering Skills" width="100%">
-</p>
 
-<p align="center">
-  <strong>50 Engineering Playbooks for AI agents</strong><br>
-  Structured workflows for real work — not <em>"You are a senior engineer…"</em>
-</p>
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
-  <a href="catalog.json"><img src="https://img.shields.io/badge/Skills-50-brightgreen" alt="50 Skills"></a>
-  <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/Agent%20Skills-compatible-purple" alt="Agent Skills"></a>
-  <a href="https://github.com/patonkikh/APES"><img src="https://img.shields.io/badge/GitHub-patonkikh%2FAPES-black" alt="GitHub"></a>
-</p>
+*The largest open-source collection of professional Engineering Skills for AI Agentse* 
+ 
+Structured workflows for real work — not *"You are a senior engineer…"*
 
-<p align="center">
-  <a href="#install">Install</a> ·
-  <a href="#skill-anatomy">Anatomy</a> ·
-  <a href="#categories">Categories</a> ·
-  <a href="#pipelines">Pipelines</a> ·
-  <a href="catalog.json">Catalog</a>
-</p>
+
+
+[Install](#install) · [Anatomy](#skill-anatomy) · [Categories](#categories) · [Pipelines](#pipelines) · [Catalog](catalog.json)
 
 ---
 
@@ -43,12 +29,16 @@ flowchart LR
     style After fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
 ```
 
-| | Role prompt | APES Playbook |
-|---|-------------|---------------|
-| Process | None | Step-by-step workflow |
-| Quality gate | None | Validation checklist |
-| Output | Free-form | Standard template |
-| Chaining | None | Next Skills links |
+
+
+
+|              | Role prompt | APES Playbook         |
+| ------------ | ----------- | --------------------- |
+| Process      | None        | Step-by-step workflow |
+| Quality gate | None        | Validation checklist  |
+| Output       | Free-form   | Standard template     |
+| Chaining     | None        | Next Skills links     |
+
 
 ---
 
@@ -66,6 +56,8 @@ flowchart TB
     style A fill:#1e3a5f,stroke:#38bdf8,color:#e2e8f0
     style G fill:#14532d,stroke:#34d399,color:#e2e8f0
 ```
+
+
 
 ### Cursor
 
@@ -92,7 +84,7 @@ Cline · Windsurf · Copilot · Roo Code — copy `skill.md` into your skills fo
 
 ## Skill anatomy
 
-<a id="skill-anatomy"></a>
+
 
 ```mermaid
 flowchart TB
@@ -121,18 +113,22 @@ flowchart TB
     style Optional fill:#1a2e1a,stroke:#34d399,color:#d1fae5
 ```
 
-| File | Install? | What it does |
-|------|:--------:|--------------|
-| `skill.md` → `SKILL.md` | **Yes** | Full playbook — the only required file |
-| `examples.md` | Optional | Worked input → output samples |
-| `references.md` | Optional | Domain cheat sheets (OWASP, C4, MCP…) |
-| `README.md` | No | Browse on GitHub only |
+
+
+
+| File                    | Install? | What it does                           |
+| ----------------------- | -------- | -------------------------------------- |
+| `skill.md` → `SKILL.md` | **Yes**  | Full playbook — the only required file |
+| `examples.md`           | Optional | Worked input → output samples          |
+| `references.md`         | Optional | Domain cheat sheets (OWASP, C4, MCP…)  |
+| `README.md`             | No       | Browse on GitHub only                  |
+
 
 ---
 
 ## Categories
 
-<a id="categories"></a>
+
 
 ```mermaid
 pie showData
@@ -145,86 +141,81 @@ pie showData
     "MCP (5)" : 5
 ```
 
-<table>
-<tr>
-<td width="33%" valign="top">
+
+
+
+|     |
+| --- |
+|     |
+
 
 ### Product · 15
 
-[`skills/product/`](skills/product/)
+`[skills/product/](skills/product/)`
 
 Discovery → Strategy → Delivery
 
 `idea-validator` · `prd-generator` · `okr-builder` · `user-story-generator`
 
-</td>
-<td width="33%" valign="top">
+
 
 ### Architecture · 10
 
-[`skills/architecture/`](skills/architecture/)
+`[skills/architecture/](skills/architecture/)`
 
 C4 · ADR · API design
 
 `solution-architecture` · `adr-generator` · `api-designer`
 
-</td>
-<td width="33%" valign="top">
+
 
 ### AI · 10
 
-[`skills/ai/`](skills/ai/)
+`[skills/ai/](skills/ai/)`
 
 Prompts · Agents · Eval
 
 `prompt-engineer` · `multi-agent-planner` · `context-engineering`
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+
 
 ### RAG · 5
 
-[`skills/rag/`](skills/rag/)
+`[skills/rag/](skills/rag/)`
 
 Retrieval pipelines
 
 `rag-architecture-designer` · `hybrid-search-advisor`
 
-</td>
-<td valign="top">
+
 
 ### Security · 5
 
-[`skills/security/`](skills/security/)
+`[skills/security/](skills/security/)`
 
 OWASP LLM · Threats
 
 `owasp-llm-reviewer` · `guardrails-builder`
 
-</td>
-<td valign="top">
+
 
 ### MCP · 5
 
-[`skills/mcp/`](skills/mcp/)
+`[skills/mcp/](skills/mcp/)`
 
 Model Context Protocol
 
 `mcp-server-generator` · `mcp-tool-generator`
 
-</td>
-</tr>
-</table>
 
-**Full index:** [`catalog.json`](catalog.json)
+
+**Full index:** `[catalog.json](catalog.json)`
 
 ---
 
 ## Pipelines
 
-<a id="pipelines"></a>
+
 
 Skills chain via **Next Skills** in each playbook:
 
@@ -247,6 +238,8 @@ flowchart LR
     style prd fill:#1e3a5f,stroke:#38bdf8,color:#fff
 ```
 
+
+
 ```mermaid
 flowchart LR
     subgraph Engineering
@@ -264,6 +257,8 @@ flowchart LR
 
     style ow fill:#3b1219,stroke:#f87171,color:#fff
 ```
+
+
 
 ---
 
@@ -290,6 +285,4 @@ APES/
 
 [MIT](LICENSE) © 2026 APES Contributors
 
-<p align="center">
-  <sub>Compatible with <a href="https://agentskills.io/specification">Agent Skills</a> · Built for Cursor, Claude Code, and open agents</sub>
-</p>
+Compatible with [Agent Skills](https://agentskills.io/specification) · Built for Cursor, Claude Code, and open agents
