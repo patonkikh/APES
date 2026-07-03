@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="200" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#818cf8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#accent)"/>
+  <circle cx="100" cy="80" r="120" fill="#38bdf8" fill-opacity="0.06"/>
+  <circle cx="1100" cy="240" r="140" fill="#34d399" fill-opacity="0.06"/>
+  <circle cx="600" cy="160" r="200" fill="#818cf8" fill-opacity="0.04"/>
+  <!-- grid dots -->
+  <g fill="#94a3b8" fill-opacity="0.15">
+    <circle cx="80" cy="40" r="2"/><circle cx="120" cy="40" r="2"/><circle cx="160" cy="40" r="2"/>
+    <circle cx="1040" cy="280" r="2"/><circle cx="1080" cy="280" r="2"/><circle cx="1120" cy="280" r="2"/>
+  </g>
+  <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="72" font-weight="700" fill="url(#textGrad)">APES</text>
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#94a3b8" letter-spacing="4">AI PRODUCT ENGINEERING SKILLS</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="18" fill="#cbd5e1">50 Engineering Playbooks · Not Role Prompts</text>
+  <!-- category pills -->
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600">
+    <rect x="248" y="252" width="88" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="292" y="271" text-anchor="middle" fill="#7dd3fc">Product</text>
+    <rect x="348" y="252" width="108" height="28" rx="14" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.5"/>
+    <text x="402" y="271" text-anchor="middle" fill="#c4b5fd">Architecture</text>
+    <rect x="468" y="252" width="48" height="28" rx="14" fill="#34d399" fill-opacity="0.2" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="492" y="271" text-anchor="middle" fill="#6ee7b7">AI</text>
+    <rect x="528" y="252" width="56" height="28" rx="14" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="556" y="271" text-anchor="middle" fill="#fde68a">RAG</text>
+    <rect x="596" y="252" width="88" height="28" rx="14" fill="#f87171" fill-opacity="0.2" stroke="#f87171" stroke-opacity="0.5"/>
+    <text x="640" y="271" text-anchor="middle" fill="#fca5a5">Security</text>
+    <rect x="696" y="252" width="56" height="28" rx="14" fill="#a78bfa" fill-opacity="0.2" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="724" y="271" text-anchor="middle" fill="#ddd6fe">MCP</text>
+    <rect x="764" y="252" width="188" height="28" rx="14" fill="#64748b" fill-opacity="0.3" stroke="#64748b" stroke-opacity="0.5"/>
+    <text x="858" y="271" text-anchor="middle" fill="#e2e8f0">Agent Skills Compatible</text>
+  </g>
+</svg>
