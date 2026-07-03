@@ -38,7 +38,7 @@ Return: {"reply": "I can only help with [topics].", "escalate": true}
 |---------|----------|
 | Input classifier | 80ms |
 | Output validator | 40ms |
-| **Total** | 120ms ✓ |
+| **Total** | 120ms (within budget) |
 
 ## Monitoring
 - Alert: guardrail block rate >20% in 5m (possible attack or mis-tune)

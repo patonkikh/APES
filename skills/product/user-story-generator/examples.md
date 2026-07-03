@@ -41,7 +41,7 @@ Persona: Engineering manager
 ## INVEST Check
 | Story | Independent | Negotiable | Valuable | Estimable | Small | Testable |
 |-------|-------------|------------|----------|-----------|-------|----------|
-| US-001 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| US-001 | Y | Y | Y | Y | Y | Y |
 ```
 
 ---

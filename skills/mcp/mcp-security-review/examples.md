@@ -36,8 +36,8 @@ Deployment: local Cursor only
 ## Tool Permission Matrix
 | Tool | Read | Write | Scope |
 |------|------|-------|-------|
-| search_issues | ✓ | | issues:read |
-| add_comment | | ✓ | issues:write |
+| search_issues | yes | | issues:read |
+| add_comment | | yes | issues:write |
 
 ## Deploy Recommendation
 **Approve with fixes** — complete S-001, S-002 before team rollout

@@ -63,7 +63,7 @@ Mark confidence: verified (public source) vs inferred (state explicitly).
 Rows = capabilities users care about (from JTBD, not vendor feature lists).  
 Columns = top 5–8 competitors + your product (planned).
 
-Scoring: ✅ Strong · ⚠️ Partial · ❌ Missing · ? Unknown
+Scoring: **Strong** · **Partial** · **Missing** · ? Unknown
 
 Highlight rows where no incumbent excels — **white space**.
 

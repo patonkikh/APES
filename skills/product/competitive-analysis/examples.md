@@ -17,9 +17,9 @@ Known: Lavender, Regie, Jasper. Building: outbound personalization tool.
 ## Feature Matrix (excerpt)
 | Capability | Us | Lavender | Regie |
 |------------|----|---------|----|
-| CRM native sync | Planned | ✅ | ✅ |
-| Call coaching | ❌ | ⚠️ | ✅ |
-| Deep personalization | ✅ | ⚠️ | ⚠️ |
+| CRM native sync | Planned | Strong | Strong |
+| Call coaching | Missing | Partial | Strong |
+| Deep personalization | Strong | Partial | Partial |
 
 ## White Space
 Vertical playbooks for niche industries underserved by horizontal tools.

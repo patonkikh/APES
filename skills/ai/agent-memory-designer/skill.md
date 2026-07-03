@@ -127,7 +127,7 @@ Run Validation checklist.
 
 - Start with session + explicit user profile; add episodic memory when needed.
 - Store memories as atomic facts with source turn ID and timestamp.
-- Run memory hygiene audits (LobeHub `memory-hygiene` pattern) monthly.
+- Run memory hygiene audits monthly; prune low-relevance episodic entries.
 - Pair with `context-engineering` for assembly order and budget.
 - Log recall hits/misses for tuning thresholds.
 
