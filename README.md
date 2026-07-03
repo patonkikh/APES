@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="APES — AI Product Engineering Skills" width="100%">
+  <img src="https://raw.githubusercontent.com/patonkikh/APES/main/assets/banner.jpg" alt="APES — AI Product Engineering Skills" width="100%">
 </p>
 
 <p align="center">
