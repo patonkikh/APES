@@ -1,12 +1,19 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/patonkikh/APES/main/assets/banner.jpg" alt="APES — AI Product Engineering Skills" width="100%">
+</p>
 
+<p align="center">
+  <em>The largest open-source collection of professional Engineering Skills for AI Agents</em><br>
+  Structured workflows for real work — not <em>"You are a senior engineer…"</em>
+</p>
 
-*The largest open-source collection of professional Engineering Skills for AI Agentse* 
- 
-Structured workflows for real work — not *"You are a senior engineer…"*
-
-
-
-[Install](#install) · [Anatomy](#skill-anatomy) · [Categories](#categories) · [Pipelines](#pipelines) · [Catalog](catalog.json)
+<p align="center">
+  <a href="#install">Install</a> ·
+  <a href="#skill-anatomy">Anatomy</a> ·
+  <a href="#categories">Categories</a> ·
+  <a href="#pipelines">Pipelines</a> ·
+  <a href="catalog.json">Catalog</a>
+</p>
 
 ---
 
@@ -132,7 +139,7 @@ flowchart TB
 
 ```mermaid
 pie showData
-    title 50 Skills by Category
+    title Skills by Category
     "Product (15)" : 15
     "Architecture (10)" : 10
     "AI Engineering (10)" : 10
